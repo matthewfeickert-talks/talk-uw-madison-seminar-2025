@@ -2,3 +2,7 @@ talk.pdf
 
 .ipynb_checkpoints/
 example_code/plots/
+
+# pixi environments
+.pixi
+*.egg-info
