@@ -10,9 +10,9 @@ count: false
 <br><br>
 [matthew.feickert@cern.ch](mailto:matthew.feickert@cern.ch)
 
-[UC Berkeley Neyman](https://events.berkeley.edu/neyman-seminar/event/236154-neyman-seminar-matthew-feickert) [Seminar](https://matthewfeickert-talks.github.io/talk-uc-berkeley-research-seminar-2024/)
+[Seminar](https://github.com/matthewfeickert-talks/talk-uw-madison-seminar-2025)
 
-January 31st, 2024
+March 3rd, 2025
 
 <!-- ---
 # Notes
