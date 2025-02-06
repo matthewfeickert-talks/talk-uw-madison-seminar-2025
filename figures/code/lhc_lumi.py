@@ -111,7 +111,7 @@ ax.text(11, 4, r"$\sim 30\,\mathrm{fb}^{-1}$", fontsize=14, fontweight="bold")
 ax.add_patch(plt.Circle((3.5, 22.5), 0.1, color="black", fill=True))
 
 ax.add_patch(plt.Circle((8.5, 2.5), 0.2, color="black", fill=True))
-ax.text(11, 2, r"Now (2024)", fontsize=14, fontweight="bold")
+ax.text(11, 2, r"Now (2025) FIXME", fontsize=14, fontweight="bold")
 
 # Set the limits of the plot
 # ax.set_xlim(0, n_cols)
