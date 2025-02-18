@@ -14,6 +14,26 @@ count: false
 
 March 3rd, 2025
 
+<!-- Abstract:
+
+With the High-Luminosity Large Hadron Collider (HL-LHC) era on the horizon for physics analysis at the LHC experiments, there are multiple computing and data challenges to be overcome to efficiently analyze and extract the most scientific value from the unique and valuable data collected.
+
+
+WHAT ARE THEY?
+
+These challenges also offer opportunities for innovation.
+
+How can new data science tools maximize data throughput and analysis rates in analysis pipelines to reduce the time to insight?
+What applications of artificial intelligence and machine learning (AI/ML) increase analysis sensitivity to reach new results sooner with less data?
+What previously unfeasible analyses are unlocked by intelligently scaling analysis workflows?
+
+In this seminar I will present an overview for how these challenges provide us with powerful new tools for advancing the frontiers of particle physics and open areas of collaboration with other fields.
+
+I will introduce how a physics analysis ecosystem of modern open source data science tools has enabled new workflows at scale.
+I will then discuss how AI/ML techniques and applications from the broader fields of automatic differentiation and differentiable programming are being integrated into analysis tools to bring new opportunities.
+Finally, I will demonstrate how strategies for enabling analysis reuse can be leveraged to tackle scientific analysis at the HL-LHC scale and beyond.
+-->
+
 <!-- ---
 # Notes
 
