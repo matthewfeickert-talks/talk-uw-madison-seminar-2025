@@ -17,6 +17,25 @@ March 3rd, 2025
 <!-- ---
 # Notes
 
+https://jobs.wisc.edu/jobs/assistant-professor-of-physics-madison-wisconsin-united-states-e10f4aa1-3c6b-4c21-ade1-9c2ba3afb23d
+
+Assistant Professor in the area of artificial intelligence (AI) and machine learning (ML) applied to experimental physics.
+We encourage applicants who are conducting relevant AI/ML research for enabling new discoveries in fundamental physics using large data sets, innovative computational technologies, and software methodologies.
+
+We anticipate close collaboration with scientists at the UW-Madison Center for High Throughput Computing and American Family Data Science Institute.
+The successful candidate will participate in interdisciplinary and collaborative efforts with other departments, schools and colleges.
+
+Candidates must have a proven track record of innovation and are expected to build a high-impact research program with an international profile.
+The successful candidate will contribute to an inclusive, fair, and equitable environment that fosters engagement and a sense of belonging for faculty, staff, students, and members of the broader community.
+
+...
+
+The successful candidate will participate in interdisciplinary and collaborative efforts with other departments, schools and colleges.
+
+...
+
+This position is part of the Wisconsin Research, Innovation and Scholarly Excellence (RISE) Initiative. Through accelerated and strategic faculty hiring, research infrastructure enhancement, interdisciplinary collaboration, and increased student and educational opportunities, RISE addresses complex societal challenges of importance to the state, nation and world.
+
 * .bold[Time]: 45 minutes .bold[talk] + 5-10 minutes .bold[questions]
 * .bold[Prompt]: Research seminar focusing on past work. It will be open to faculty, students, other departments and a broader audience.
 * .bold[Abstract:] With the High-Luminosity Large Hadron Collider (HL-LHC) era on the horizon for physics analysis at the LHC experiments, there are multiple computing and data challenges to be overcome to efficiently analyze and extract the most scientific value from the unique and valuable data collected. In this seminar I will present a high-level overview of how applications of data science tools from the modern scientific open source community, techniques and applications from the field of automatic differentiation, and strategies for enabling analysis reuse can be leveraged to tackle scientific analysis at the HL-LHC scale and beyond. -->
