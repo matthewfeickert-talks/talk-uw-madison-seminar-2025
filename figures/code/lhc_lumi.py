@@ -6,9 +6,26 @@ import matplotlib.pyplot as plt
 # XKCD style
 plt.xkcd()
 
+# Total integrated Luminosity marks
+# Run 1: 30 fb^-1 (Run: 30 fb^-1)
+# Run 2: 190 fb^-1 (160 fb^-1) ~ 5 squares
+# Run 3: 500 fb^-1 (310 fb^-1) ~ 10 squares
+# Run 4: 4000 fb^-1 (3500 fb^-1) ~117 squares
+# https://atlas.web.cern.ch/Atlas/GROUPS/DATAPREPARATION/PublicPlots/2024/DataSummary/figs/intlumivstimeRun3.png
+# Total collected in Run 3 so far: 183 fb^-1
+
 # Specify the number of rows and columns
-n_rows = 24
-n_cols = 5
+# would get 3600 fb^-1
+# n_rows = 24
+# n_cols = 5
+
+# would get 3960 fb^-1
+n_rows = 22
+n_cols = 6
+
+# would get 4050 fb^-1
+# n_rows = 27
+# n_cols = 5
 
 fig, ax = plt.subplots()
 ax.axis("off")
@@ -22,19 +39,24 @@ run_two_color = "orange"
 run_three_color = "gold"
 run_four_color = "grey"
 
+# Fix to be index based
 for row, col in itertools.product(range(n_rows), range(n_cols)):
     if row == 0 and col == 0:
         facecolor = run_one_color
     elif row == 0 and col > 0:
         facecolor = run_two_color
-    elif row == 1 and col == 0:
-        facecolor = run_two_color
-    elif row == 1 and col > 0:
+    # elif row == 1 and col == 0:
+    #     facecolor = run_two_color
+    # elif row == 1 and col > 0:
+    #     facecolor = run_three_color
+    elif row == 1:
+    #     facecolor = run_three_color
+    # elif row == 2:
         facecolor = run_three_color
-    elif row == 2:
+    elif row == 2 and col < 4:
         facecolor = run_three_color
-    elif row == 3 and col == 0:
-        facecolor = run_three_color
+    # elif row == 3 and col == 0:
+    #     facecolor = run_three_color
     else:
         facecolor = run_four_color
     square = plt.Rectangle(
@@ -108,7 +130,8 @@ ax.add_patch(
 # ax.text(11, 4, r"~ $30 \mathrm{fb}^{-1}$", fontsize=14, fontweight="bold")
 ax.text(11, 4, r"$\sim 30\,\mathrm{fb}^{-1}$", fontsize=14, fontweight="bold")
 
-ax.add_patch(plt.Circle((3.5, 22.5), 0.1, color="black", fill=True))
+# ax.add_patch(plt.Circle((3.5, 22.5), 0.1, color="black", fill=True))
+ax.add_patch(plt.Circle((0.5, 19.5), 0.1, color="black", fill=True))
 
 ax.add_patch(plt.Circle((8.5, 2.5), 0.2, color="black", fill=True))
 ax.text(11, 2, r"Now (2025) FIXME", fontsize=14, fontweight="bold")
