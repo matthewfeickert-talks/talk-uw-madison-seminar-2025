@@ -3,7 +3,7 @@ from pathlib import Path
 import matplotlib.pyplot as plt
 
 dates = [2020, 2021, 2022, 2023, 2024, 2025]
-citations = [1, 15, 38, 50, 51, 3]
+citations = [1, 15, 38, 50, 51, 7]
 
 fig, ax = plt.subplots()
 
