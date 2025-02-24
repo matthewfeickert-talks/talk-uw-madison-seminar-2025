@@ -8,7 +8,7 @@ count: false
 .huge.blue[Matthew Feickert]<br>
 .huge[(University of Wisconsin-Madison)]
 
-[Physics Seminar](https://github.com/matthewfeickert-talks/talk-uw-madison-seminar-2025)<br>
+[NPAC (Nuclear/Particle/Astro/Cosmo) Forum Seminar](https://github.com/matthewfeickert-talks/talk-uw-madison-seminar-2025)<br>
 March 3rd, 2025
 
 .middle-logo[]
