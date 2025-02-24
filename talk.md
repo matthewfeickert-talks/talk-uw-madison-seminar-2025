@@ -7,11 +7,8 @@ count: false
 
 .huge.blue[Matthew Feickert]<br>
 .huge[(University of Wisconsin-Madison)]
-<br>
-[matthew.feickert@cern.ch](mailto:matthew.feickert@cern.ch)
 
-[Seminar](https://github.com/matthewfeickert-talks/talk-uw-madison-seminar-2025)
-
+[Physics Seminar](https://github.com/matthewfeickert-talks/talk-uw-madison-seminar-2025)<br>
 March 3rd, 2025
 
 .middle-logo[]

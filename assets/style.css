@@ -433,7 +433,7 @@ td {
     width: 307px;
     height: 92px;
     position: absolute;
-    bottom: 2em;
+    bottom: 1.5em;
     left: 3.3em;
     display: inline-block;
 }
@@ -446,7 +446,7 @@ td {
     width: 196px;
     height: 108px;
     position: absolute;
-    bottom: 1.3em;
+    bottom: 1em;
     left: 25em;
     display: inline-block;
 }
@@ -459,7 +459,7 @@ td {
     width: 242px;
     height: 127px;
     position: absolute;
-    bottom: 1.8em;
+    bottom: 1em;
     right: 3.3em;
     display: inline-block;
 }
