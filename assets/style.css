@@ -62,6 +62,18 @@ body {
     color: #9c2cfc;
 }
 
+.cptools {
+    color: #929292;
+}
+
+.datacolumn {
+    color: #0076ba;
+}
+
+.newcolumn {
+    color: #00ab8e;
+}
+
 .italic {
     font-style: italic;
 }
@@ -418,8 +430,8 @@ td {
     content: '';
     background: url("../assets/logos/logo_institution.png") no-repeat;
     background-size: 100% 100%;
-    width: 370px;
-    height: 102px;
+    width: 307px;
+    height: 92px;
     position: absolute;
     bottom: 2em;
     left: 3.3em;
@@ -434,7 +446,7 @@ td {
     width: 196px;
     height: 108px;
     position: absolute;
-    bottom: 1.8em;
+    bottom: 1.3em;
     left: 25em;
     display: inline-block;
 }
@@ -442,10 +454,10 @@ td {
 /* Even worse hack to get another logo on */
 .title-slide:before {
     content: '';
-    background: url("../assets/logos/logo_IRIS-HEP.png") no-repeat;
+    background: url("../assets/logos/logo_ATLAS.png") no-repeat;
     background-size: 100% 100%;
-    width: 196px;
-    height: 108px;
+    width: 242px;
+    height: 127px;
     position: absolute;
     bottom: 1.8em;
     right: 3.3em;
