@@ -776,7 +776,7 @@ Mathematical grammar for a simultaneous fit with multiple disjoint _channels_ (o
 .kol-1-2.large[
 - Open source tool for all of HEP
    - [IRIS-HEP](https://iris-hep.org/projects/pyhf.html) supported Scikit-HEP project
-   - Used in ATLAS SUSY, Exotics, and Top physics groups in [28 published analyses](https://scikit-hep.org/pyhf/citations.html#published-statistical-models)
+   - Used in ATLAS HMBS, Exotics, and Top physics groups in [over 40 published analyses](https://scikit-hep.org/pyhf/citations.html#published-statistical-models)
    - [Used by](https://scikit-hep.org/pyhf/citations.html#use-citations) flavor physics ([Belle II](https://inspirehep.net/literature/1860766)), neutrino physics ([MicroBooNE](https://arxiv.org/abs/2310.07660)), phenomenology community ([`SModelS`](https://inspirehep.net/literature/1814793)), future collider studies ([EIC](https://inspirehep.net/literature/1846026), [MuC](https://inspirehep.net/literature/2743639))
    <!-- ([`SModelS`](https://inspirehep.net/literature/1814793), [`MadAnalysis 5`](https://inspirehep.net/literature/2103971)) -->
    <!-- - Expanding to future experiments too! -->
