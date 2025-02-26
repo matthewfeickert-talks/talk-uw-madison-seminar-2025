@@ -413,17 +413,17 @@ In [2022](https://indico.cern.ch/event/1140031/) we created a view for the PyHEP
 .kol-1-3[
 .center.huge[[dask-awkward](https://github.com/dask-contrib/dask-awkward)]
 
-.center[Native Dask collection for partioned Awkward arrays for analysis at scale]
+.center.larger[Native Dask collection for partioned Awkward arrays for analysis at scale]
 ]
 .kol-1-3[
 .center.huge[[scikit-build-core](https://scikit-build-core.readthedocs.io/)]
 
-.center[Next generation of build tools for scientific packaging]
+.center.larger[Next generation of build tools for scientific packaging]
 ]
 .kol-1-3[
 .center.huge[[NumFOCUS](https://numfocus.org/)]
 
-.center[Organizing and supporting scientific open source]
+.center.larger[Organizing and supporting scientific open source]
 ]
 
 ---
