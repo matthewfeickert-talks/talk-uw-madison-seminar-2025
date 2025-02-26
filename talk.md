@@ -259,7 +259,7 @@ This position is part of the Wisconsin Research, Innovation and Scholarly Excell
 ]
 
 ---
-# IRIS-HEP
+# IRIS-HEP (UPDATE TEAM)
 
 <p style="text-align:center;">
    <a href="https://iris-hep.org/about/team">
