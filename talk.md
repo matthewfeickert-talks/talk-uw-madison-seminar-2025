@@ -430,7 +430,7 @@ In [2022](https://indico.cern.ch/event/1140031/) we created a view for the PyHEP
 # Analysis Grand Challenge: 200 Gbps challenge
 
 .footnote[[The 200 Gbps Challenge: Imagining HL-LHC analysis facilities](https://indico.cern.ch/event/1338689/contributions/6009824/), A. Held, et al.]
-.kol-3-5.large[
+.kol-3-5.larger[
 .bold.center[end-user analysis vision]
 
 * Analyze O(1000) TB of data within a few hours
@@ -452,7 +452,7 @@ In [2022](https://indico.cern.ch/event/1140031/) we created a view for the PyHEP
 # Analysis Grand Challenge: 200 Gbps challenge
 
 .footnote[[The 200 Gbps Challenge: Imagining HL-LHC analysis facilities](https://indico.cern.ch/event/1338689/contributions/6009824/), A. Held, et al.]
-.kol-3-5.large[
+.kol-3-5.larger[
 .bold.center[end-user analysis vision]
 
 * Analyze O(1000) TB of data within a few hours
@@ -481,7 +481,7 @@ In [2022](https://indico.cern.ch/event/1140031/) we created a view for the PyHEP
    </a>
 </p>
 ]
-.kol-1-2.large[
+.kol-1-2.larger[
 <br>
 AGC multidimensional challenge.
 
@@ -496,7 +496,7 @@ First axis attached is .bold[data throughput].
       <img src="figures/nebraska_data_rates.png"; width=75%>
    </a>
 </p>
-.center[CMS NanoAOD on Nebrasksa Coffea-casa]
+.center[CMS NanoAOD on .bold[Nebrasksa Coffea-casa]]
 ]
 .kol-1-2[
 <p style="text-align:center;">
@@ -504,8 +504,37 @@ First axis attached is .bold[data throughput].
       <img src="figures/uchicago_data_rates.png"; width=72%>
    </a>
 </p>
-.center[ATLAS PHYSLITE on UChicago Analysis Facility]
+.center[ATLAS PHYSLITE on .bold[UChicago Analysis Facility]]
 ]
+]
+
+---
+# Analysis Grand Challenge: 200 Gbps challenge
+
+.kol-1-2[
+<p style="text-align:center;">
+   <a href="https://indico.cern.ch/event/1338689/contributions/6009824/">
+      <img src="figures/multi_user_data_rates.png"; width=110%>
+   </a>
+</p>
+
+Multiuser runs of the AGC show we can still .bold[reach 200 Gbps in aggregate]
+* Limited to 200 cores per user
+* Enough throughput to hit .bold[network saturation] at UChicago AF
+]
+.kol-1-2[
+<p style="text-align:center;">
+   <a href="https://indico.cern.ch/event/1338689/contributions/6009824/">
+      <img src="figures/future_agc_goals.png"; width=50%>
+   </a>
+</p>
+.bold.center[Further explore parameter space of HL-LHC analyses]
+<p style="text-align:center;">
+   <a href="https://indico.cern.ch/event/1338689/contributions/6009824/">
+      <img src="figures/CHEP_2024_keynote.jpg"; width=52%>
+   </a>
+</p>
+.bold.center[200 Gbps keynote at CHEP 2024]
 ]
 
 ---
