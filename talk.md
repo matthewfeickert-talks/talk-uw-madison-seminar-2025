@@ -427,9 +427,86 @@ In [2022](https://indico.cern.ch/event/1140031/) we created a view for the PyHEP
 ]
 
 ---
-# SLIDE TO ADD: 200 Gbps challenge
+# Analysis Grand Challenge: 200 Gbps challenge
 
-* Add results from here
+.footnote[[The 200 Gbps Challenge: Imagining HL-LHC analysis facilities](https://indico.cern.ch/event/1338689/contributions/6009824/), A. Held, et al.]
+.kol-3-5.large[
+.bold.center[end-user analysis vision]
+
+* Analyze O(1000) TB of data within a few hours
+* .blue[Interactive analysis turnaround: "coffee break" timescale]
+* Fully integrated Analysis Facilities (AFs)
+* UX to empower big and small teams
+* Easy access to state-of-the-art ML + techniques
+* Reproducibility, analysis preservation, reuse
+]
+.kol-2-5[
+<p style="text-align:center;">
+   <a href="https://indico.cern.ch/event/1338689/contributions/6009824/">
+      <img src="figures/coffee_break_timescales.png"; width=100%>
+   </a>
+</p>
+]
+
+---
+# Analysis Grand Challenge: 200 Gbps challenge
+
+.footnote[[The 200 Gbps Challenge: Imagining HL-LHC analysis facilities](https://indico.cern.ch/event/1338689/contributions/6009824/), A. Held, et al.]
+.kol-3-5.large[
+.bold.center[end-user analysis vision]
+
+* Analyze O(1000) TB of data within a few hours
+* Interactive analysis turnaround: "coffee break" timescale
+* Fully integrated Analysis Facilities (AFs)
+* UX to empower big and small teams
+* .blue[Easy access to state-of-the-art ML + techniques]
+* Reproducibility, analysis preservation, reuse
+]
+.kol-2-5[
+<p style="text-align:center;">
+   <a href="https://indico.cern.ch/event/1338689/contributions/6009824/">
+      <img src="figures/nsbi_in_AGC.png"; width=100%>
+   </a>
+</p>
+]
+
+---
+# Analysis Grand Challenge: 200 Gbps challenge
+
+.kol-1-1[
+.kol-1-2[
+<p style="text-align:center;">
+   <a href="https://indico.cern.ch/event/1338689/contributions/6009824/">
+      <img src="figures/200_gbps_challenge_axes.png"; width=70%>
+   </a>
+</p>
+]
+.kol-1-2.large[
+<br>
+AGC multidimensional challenge.
+
+First axis attached is .bold[data throughput].
+]
+]
+
+.kol-1-1[
+.kol-1-2[
+<p style="text-align:center;">
+   <a href="https://indico.cern.ch/event/1338689/contributions/6009824/">
+      <img src="figures/nebraska_data_rates.png"; width=75%>
+   </a>
+</p>
+.center[CMS NanoAOD on Nebrasksa Coffea-casa]
+]
+.kol-1-2[
+<p style="text-align:center;">
+   <a href="https://indico.cern.ch/event/1338689/contributions/6009824/">
+      <img src="figures/uchicago_data_rates.png"; width=72%>
+   </a>
+</p>
+.center[ATLAS PHYSLITE on UChicago Analysis Facility]
+]
+]
 
 ---
 # Automatic differentiation as tool for science
