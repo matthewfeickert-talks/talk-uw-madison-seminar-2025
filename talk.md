@@ -222,10 +222,10 @@ This position is part of the Wisconsin Research, Innovation and Scholarly Excell
 
 <p style="text-align:center;">
    <a href="https://cds.cern.ch/record/2802918">
-      <img src="figures/HL-LHC-cpu-projections-atlas.png"; width=50%>
+      <img src="figures/HL-LHC-cpu-projections-atlas.png"; width=58%>
    </a>
-.center[[ATLAS software and computing review](https://cds.cern.ch/record/2802918)]
 </p>
+<!-- .center[[ATLAS software and computing review](https://cds.cern.ch/record/2802918)] -->
 
 .center.large[Projected .bold[required compute usage] for HL-LHC (want .blue[R]&.red[D] below .black[budget] line)]
 
