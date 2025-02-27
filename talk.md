@@ -441,7 +441,7 @@ In [2022](https://indico.cern.ch/event/1140031/) created a view for the PyHEP ec
 <br>
 AGC multidimensional challenge.
 
-First axis attached is .bold[data throughput].
+First axis attacked is .bold[data throughput].
 ]
 ]
 
