@@ -1039,6 +1039,34 @@ From the 2023 MIAPbP Workshop on on Differentiable and Probabilistic Programming
 ]
 
 ---
+# Analysis Reuse leverging global resoruces
+
+.kol-2-3.large[
+* Use of CERN REANA instance has been a success for ATLAS physics anlayses and starting to see an uptick in use by CMS
+* Realistically, CERN is the only current viable deployment of REANA &mdash; huge limitation in use!
+   - Have been consulting with Eric Lancon on ways to improve the BNL deployment
+* Exploring with my UW-Madison CHTC/IRIS-HEP/OSG colleague .bold[Brian Lin] on exploring REANA at CHTC
+   - REANA is "just" a Kubernetes deployment, and CHTC has world experts in technologies for REANA
+   - Enable more kinda of physics anlaysis at scale, and CHTC would be perfect point for .bold[active learning] workflows
+]
+.kol-1-3[
+<!-- <p style="text-align:center;">
+   <a href="https://chtc.cs.wisc.edu/people.html">
+      <img src="figures/brian_lin.jpg"; width=40%>
+   </a>
+</p> -->
+<br><br>
+<p style="text-align:center;">
+   <a href="https://conference.ippp.dur.ac.uk/event/1178/contributions/6449/">
+      <img src="figures/active-learning-workflow.png"; width=100%>
+   </a>
+</p>
+.caption[[ATL-PHYS-PUB-2023-010](https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PUBNOTES/ATL-PHYS-PUB-2023-010/)]
+
+.center[Iterative procedure to actively collect new labelled data for an optimisation task]
+]
+
+---
 # Full statistical model publication...
 
 .center[...making good on [19 year old agreement to publish likelihoods](https://indico.cern.ch/event/746178/contributions/3396797/)]
