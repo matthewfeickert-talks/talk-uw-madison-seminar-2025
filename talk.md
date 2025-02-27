@@ -1045,7 +1045,7 @@ From the 2023 MIAPbP Workshop on on Differentiable and Probabilistic Programming
 * Use of CERN REANA instance has been a success for ATLAS physics anlayses and starting to see an uptick in use by CMS
 * Realistically, CERN is the only current viable deployment of REANA &mdash; huge limitation in use!
    - Have been consulting with Eric Lancon on ways to improve the BNL deployment
-* Exploring with my UW-Madison CHTC/IRIS-HEP/OSG colleague .bold[Brian Lin] on exploring REANA at CHTC
+* Exploring with my UW-Madison CHTC/IRIS-HEP/OSG colleague [.bold[Brian Lin]](https://chtc.cs.wisc.edu/people.html) on exploring REANA at CHTC
    - REANA is "just" a Kubernetes deployment, and CHTC has world experts in technologies for REANA
    - Enable more kinda of physics anlaysis at scale, and CHTC would be perfect point for .bold[active learning] workflows
 ]
