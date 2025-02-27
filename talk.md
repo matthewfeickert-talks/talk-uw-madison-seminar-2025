@@ -59,7 +59,7 @@ This position is part of the Wisconsin Research, Innovation and Scholarly Excell
 .kol-2-3[
 .huge[
 * As a "data physicist" have privileged opportunity to work among multiple scientific communities
-* Care about .bold[reusable] open science to be able to push the physical sciences forward at the .bold[community scale]
+* Invested in .bold[reusable] open science to be able to push physics forward at the .bold[community scale]
    - The challenges of the next decade provide wonderful research environments that will require interdisciplinary knowledge exchange to fully engage
 * Today I'll share .bold[high level] views of deeply .bold[technical problems]
 ]
@@ -278,7 +278,7 @@ Designed around [focus areas](https://inspirehep.net/literature/2628983)
 ]
 .large[
 * Intellectual Hub
-* Analysis Systems
+* .bold[Analysis Systems]
 * Data Organization, Management, and Access (DOMA)
 * Innovative Algorithms
 * Translational Research for AI
@@ -312,7 +312,7 @@ community engagement with .bold[training, education, and outreach] and .bold[ins
 </p>
 
 .huge[
-* Deployable analysis pipelines that reduces physicist time-to-insight
+* Deployable analysis pipelines that .bold[reduces physicist time-to-insight]
    - Tools integrate into the broader scientific Python computing ecosystem
 * Analysis reuse as deployment feature
 ]
@@ -380,51 +380,6 @@ In [2022](https://indico.cern.ch/event/1140031/) we created a view for the PyHEP
 .caption[Aided by interoperable design]
 
 .footnote[[Modern Python analysis ecosystem for High Energy Physics](https://matthewfeickert.github.io/talk-doepy-python-exchange-2022/2022-06-29.pdf), Jim Pivarski, Matthew Feickert, Gordon Watts]
-
----
-# Broader scientific open source collaborations
-
-<br>
-
-.kol-1-1[
-.kol-1-3[
-<p style="text-align:center;">
-   <a href="https://github.com/dask-contrib/dask-awkward">
-      <img src="figures/dask-horizontal.svg"; width=100%>
-   </a>
-</p>
-]
-.kol-1-3[
-<p style="text-align:center;">
-   <a href="https://scikit-build-core.readthedocs.io/">
-      <img src="figures/scikit_build_logo.svg"; width=100%>
-   </a>
-</p>
-]
-.kol-1-3[
-<p style="text-align:center;">
-   <a href="https://numfocus.org/">
-      <img src="figures/numfocus-logo.png"; width=100%>
-   </a>
-</p>
-]
-]
-<!--  -->
-.kol-1-3[
-.center.huge[[dask-awkward](https://github.com/dask-contrib/dask-awkward)]
-
-.center.larger[Native Dask collection for partioned Awkward arrays for analysis at scale]
-]
-.kol-1-3[
-.center.huge[[scikit-build-core](https://scikit-build-core.readthedocs.io/)]
-
-.center.larger[Next generation of build tools for scientific packaging]
-]
-.kol-1-3[
-.center.huge[[NumFOCUS](https://numfocus.org/)]
-
-.center.larger[Organizing and supporting scientific open source]
-]
 
 ---
 # Analysis Grand Challenge: 200 Gbps challenge
@@ -1063,21 +1018,23 @@ From the 2023 MIAPbP Workshop on on Differentiable and Probabilistic Programming
 .kol-2-3[
 .large[
 * RECAST is designed to work with the CERN [REANA](https://reana.io/) open source reproducible research data analysis platform to .bold[perform analysis at scale]
-* RECAST + REANA enabled the recent (2023) ATLAS LHC Run-2 Phenomenological Minimal Supersymmetric Standard Model (pMSSM) scan analysis
+* RECAST + REANA enabled the recent (2024) ATLAS LHC Run-2 Phenomenological Minimal Supersymmetric Standard Model (pMSSM) scan [analysis](https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/SUSY-2020-15/)
    - Theory model .bold[reduced] down to 19-dimensional parameter space
    - Analysis of combination of published ATLAS LHC Run-2 analyses uses .bold[tens of thousands] of parameter space models (each a full analysis evaluation)
 * Analysis .bold[would be intractable] without existing full analysis preservation from RECAST scaled to thousands of cores with REANA
+* .bold[TODO: Update to show published paper!]
 ]
 ]
 .kol-1-3[
+<br>
 <p style="text-align:center;">
    <a href="https://reana.io/">
       <img src="figures/logo-reana.svg"; width=70%>
    </a>
 </p>
 <p style="text-align:center;">
-   <a href="https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/CONFNOTES/ATLAS-CONF-2023-055/">
-      <img src="figures/ATLAS-CONF-2023-055.png"; width=95%>
+   <a href="https://ep-news.web.cern.ch/content/extending-atlas-physics-reach-analysis-reuse-technology">
+      <img src="figures/CERN_EP_newsletter_pMSSM.png"; width=100%>
    </a>
 </p>
 ]
@@ -1689,6 +1646,51 @@ Leveraging [REANA](https://www.reana.io/) reproducible research data analysis pl
    </a>
 </p>
 .caption[[Active Learning for Excursion Set Estimation, ACAT 2019](https://indico.cern.ch/event/708041/contributions/3269754/)]
+]
+
+---
+# Broader scientific open source collaborations
+
+<br>
+
+.kol-1-1[
+.kol-1-3[
+<p style="text-align:center;">
+   <a href="https://github.com/dask-contrib/dask-awkward">
+      <img src="figures/dask-horizontal.svg"; width=100%>
+   </a>
+</p>
+]
+.kol-1-3[
+<p style="text-align:center;">
+   <a href="https://scikit-build-core.readthedocs.io/">
+      <img src="figures/scikit_build_logo.svg"; width=100%>
+   </a>
+</p>
+]
+.kol-1-3[
+<p style="text-align:center;">
+   <a href="https://numfocus.org/">
+      <img src="figures/numfocus-logo.png"; width=100%>
+   </a>
+</p>
+]
+]
+<!--  -->
+.kol-1-3[
+.center.huge[[dask-awkward](https://github.com/dask-contrib/dask-awkward)]
+
+.center.larger[Native Dask collection for partioned Awkward arrays for analysis at scale]
+]
+.kol-1-3[
+.center.huge[[scikit-build-core](https://scikit-build-core.readthedocs.io/)]
+
+.center.larger[Next generation of build tools for scientific packaging]
+]
+.kol-1-3[
+.center.huge[[NumFOCUS](https://numfocus.org/)]
+
+.center.larger[Organizing and supporting scientific open source]
 ]
 
 ---
