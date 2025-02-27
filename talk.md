@@ -1022,7 +1022,6 @@ From the 2023 MIAPbP Workshop on on Differentiable and Probabilistic Programming
    - Theory model .bold[reduced] down to 19-dimensional parameter space
    - Analysis of combination of published ATLAS LHC Run-2 analyses uses .bold[tens of thousands] of parameter space models (each a full analysis evaluation)
 * Analysis .bold[would be intractable] without existing full analysis preservation from RECAST scaled to thousands of cores with REANA
-* .bold[TODO: Update to show published paper!]
 ]
 ]
 .kol-1-3[
