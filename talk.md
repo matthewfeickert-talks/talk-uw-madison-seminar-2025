@@ -61,7 +61,7 @@ This position is part of the Wisconsin Research, Innovation and Scholarly Excell
 * As a "data physicist" have privileged opportunity to work among multiple scientific communities
 * Invested in .bold[reusable] open science to be able to push physics forward at the .bold[community scale]
    - The challenges of the next decade provide wonderful research environments that will require interdisciplinary knowledge exchange to fully engage
-* Today I'll share .bold[high level] views of deeply .bold[technical problems]
+* Today I'll share .bold[high level] views of deep problems and exciting approaches
 ]
 ]
 .kol-1-3[
