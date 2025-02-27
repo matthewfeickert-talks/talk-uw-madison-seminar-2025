@@ -439,9 +439,9 @@ In [2022](https://indico.cern.ch/event/1140031/) created a view for the PyHEP ec
 ]
 .kol-1-2.larger[
 <br>
-AGC multidimensional challenge.
+AGC multidimensional challenge
 
-First axis attacked is .bold[data throughput].
+First axis attacked is .bold[data throughput]
 ]
 ]
 
