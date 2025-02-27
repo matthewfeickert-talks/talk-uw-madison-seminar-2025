@@ -881,9 +881,16 @@ $$
 .bold.center[Having access to the gradients can make the fit orders of magnitude faster than finite difference]
 
 ---
-# SLIDE TO ADD: Bringing gradients into our tools
+# Bringing gradients further into statistical treatments of systematics
 
 * Applying gradients to systematic calculations
+* In particle physics analysis common to have finned statistical models
+* Current underlying statistical models (HistFactory and Combine) assume that effects of systematic uncertainties factorizes
+* Systematics probed one at a time, doesn't capture effects that have interactions (don't factorize)
+* New statistical model specifications could support off-axis systematic variations for improved modelling
+* Previous attempts to do this with `pyhf` involved using Gaussian Processes
+* Fitting the rate(nuisance parameter) function requires evaluating lots of systematic variations
+* Fitting the response can be made much more efficient if we have access to derivative information (e.g. dRate / dNuisance Parameter)
 
 ---
 # New Art: Analysis as a Differentiable Program
