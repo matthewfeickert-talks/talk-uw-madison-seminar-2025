@@ -438,10 +438,9 @@ In [2022](https://indico.cern.ch/event/1140031/) created a view for the PyHEP ec
 </p>
 ]
 .kol-1-2.larger[
-<br>
-AGC .bold[multidimensional] challenge
-
-First axis attacked is .bold[data throughput]
+AGC is a .bold[multidimensional] challenge<br>
+First axis attacked is .bold[data throughput]<br>
+200 Gbps: process 180 TB dataset in 30 minutes
 ]
 ]
 
