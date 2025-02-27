@@ -340,7 +340,8 @@ Integrating [machine learning training and inference](https://indico.jlab.org/ev
 </p>
 
 .center.large[
-In his [PyCon 2017 keynote](https://youtu.be/ZyjCqQEUa8o), Jake VanderPlas gave us the iconic "PyData ecosystem" image
+In his [PyCon 2017 keynote](https://youtu.be/ZyjCqQEUa8o), Jake VanderPlas gave us the iconic "PyData ecosystem" image<br>
+(now known as "Scientific Python")
 ]
 
 ---
