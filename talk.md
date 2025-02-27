@@ -354,7 +354,7 @@ In his [PyCon 2017 keynote](https://youtu.be/ZyjCqQEUa8o), Jake VanderPlas gave 
 </p>
 
 .center.large[
-In [2022](https://indico.cern.ch/event/1140031/) we created a view for the PyHEP ecosystem
+In [2022](https://indico.cern.ch/event/1140031/) created a view for the PyHEP ecosystem
 ]
 
 ---
