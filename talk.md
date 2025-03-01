@@ -58,7 +58,7 @@ This position is part of the Wisconsin Research, Innovation and Scholarly Excell
 
 .kol-2-3[
 .huge[
-* As a "data physicist" have privileged opportunity to work among multiple scientific communities
+* As an .bold[experimental and computational physicist] have privileged opportunity to work among multiple scientific communities
 * Invested in .bold[reusable] open science to be able to push physics forward at the .bold[community scale]
    - The challenges of the next decade provide wonderful research environments that will require interdisciplinary knowledge exchange to fully engage
 * Today I'll share .bold[high level] views of deep problems and exciting approaches
@@ -73,7 +73,7 @@ This position is part of the Wisconsin Research, Innovation and Scholarly Excell
 
 .center.width-30[[![logo_Scikit-HEP](figures/scikit-hep-logo.svg)](https://scikit-hep.org/)]
 
-.center.width-30[[![logo_joss](figures/joss_logo.png)](https://joss.theoj.org/)]
+.center.width-60[[![logo_joss](figures/joss-logo-with-name.jpg)](https://joss.theoj.org/)]
 ]
 
 ---
