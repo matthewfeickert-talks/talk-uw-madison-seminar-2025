@@ -340,9 +340,17 @@ community engagement with .bold[training, education, and outreach] and .bold[ins
 ]
 
 ---
-# Training personally relevant to me
+# Education and Training of Next Generation
 
-* Was DIANA/HEP FEllow
+<p style="text-align:center;">
+   <a href="https://x.com/SMUPhysics/status/861584474638766080">
+      <img src="figures/diana_hep_fellow_tweet.png"; width=45%>
+   </a>
+</p>
+
+.center.huge[Training programs personally very relevant, as they .bold[changed my career]<br>
+2017 DIANA/HEP Fellow mentored by Kyle Cranmer
+]
 
 <!-- https://github.com/iris-hep/analysis-grand-challenge/blob/382e512d39e9b62fc4d9da2c69e454dfc718c5f6/docs/index.rst#more-details-what-is-being-investigated-in-the-agc-context -->
 ---
