@@ -65,15 +65,15 @@ This position is part of the Wisconsin Research, Innovation and Scholarly Excell
 ]
 ]
 .kol-1-3[
-.center.width-65[[![logo_IRIS-HEP](assets/logos/logo_institution.png)](https://datascience.wisc.edu/institute/)]
+.center.width-80[[![logo_IRIS-HEP](assets/logos/logo_institution.png)](https://dsi.wisc.edu/)]
 
-.center.width-40[[![logo_ATLAS](assets/logos/logo_ATLAS.png)](https://atlas.cern/)]
+.center.width-50[[![logo_ATLAS](assets/logos/logo_ATLAS.png)](https://atlas.cern/)]
 
-.center.width-40[[![logo_IRIS-HEP](assets/logos/logo_IRIS-HEP.png)](https://iris-hep.org/)]
+.center.width-50[[![logo_IRIS-HEP](assets/logos/logo_IRIS-HEP.png)](https://iris-hep.org/)]
 
 .center.width-30[[![logo_Scikit-HEP](figures/scikit-hep-logo.svg)](https://scikit-hep.org/)]
 
-.center.width-60[[![logo_joss](figures/joss-logo-with-name.jpg)](https://joss.theoj.org/)]
+.center.width-55[[![logo_joss](figures/joss-logo-with-name.jpg)](https://joss.theoj.org/)]
 ]
 
 ---
