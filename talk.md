@@ -275,7 +275,7 @@ This position is part of the Wisconsin Research, Innovation and Scholarly Excell
    <a href="https://iris-hep.org/about/team">
       <img src="figures/iris-hep_uw-madison.png"; width=65%>
    </a>
-.center.large[Proud UW-Madison + Morgridge have large leadership roles and impact in IRIS-HEP]
+.center.large[Proud UW-Madison + Morgridge have .bold[large leadership roles and impact] in IRIS-HEP]
 </p>
 
 ---
