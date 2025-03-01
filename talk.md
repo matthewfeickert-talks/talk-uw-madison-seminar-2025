@@ -301,6 +301,46 @@ Designed around [focus areas](https://inspirehep.net/literature/2628983)
 community engagement with .bold[training, education, and outreach] and .bold[institute grand challenges]
 ]
 
+---
+# Education and Training of Next Generation
+<!-- * Emphasize Fellows, trainings, TAC-HEP, URSSI Fellowship teaching, that the P5 has an explicit section on training and work force development
+* Big part -->
+
+.kol-1-1[
+.kol-1-2[
+<p style="text-align:center;">
+   <a href="https://iris-hep.org/">
+      <img src="figures/IRIS-HEP-executive-board.png"; width=60%>
+   </a>
+</p>
+.caption[IRIS-HEP Fellows Program]
+]
+.kol-1-2[
+<p style="text-align:center;">
+   <a href="https://indico.cern.ch/event/1376945/">
+      <img src="figures/us-atlas-iris-hep-group-photo.jpg"; width=60%>
+   </a>
+</p>
+.caption[[US ATLAS](https://indico.cern.ch/event/1376945/) and [US CMS](https://indico.cern.ch/event/1383972/) / IRIS-HEP Analysis Software Training Events]
+]
+.kol-1-2[
+<p style="text-align:center;">
+   <a href="https://indico.cern.ch/event/1293313/">
+      <img src="figures/CompHEP-Traineeship-2023-group-photo.jpg"; width=70%>
+   </a>
+</p>
+.caption[Training to Advance Computational High Energy Physics in the Exascale Era (TAC-HEP) [Lectures](https://indico.cern.ch/event/1293313/)]
+]
+.kol-1-2[
+<p style="text-align:center;">
+   <a href="https://urssi.us/blog/">
+      <img src="figures/urssi-summer-school-2024.jpg"; width=52%>
+   </a>
+</p>
+.caption[US Research Software Sustainability Institute (URSSI) Early-Career Fellowship: [Reproducible Machine Learning Workflows for Scientists](https://urssi.us/blog/)]
+]
+]
+
 <!-- https://github.com/iris-hep/analysis-grand-challenge/blob/382e512d39e9b62fc4d9da2c69e454dfc718c5f6/docs/index.rst#more-details-what-is-being-investigated-in-the-agc-context -->
 ---
 # IRIS-HEP Analysis Systems
