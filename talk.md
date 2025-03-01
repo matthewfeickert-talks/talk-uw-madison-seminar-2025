@@ -1078,7 +1078,7 @@ From the 2023 MIAPbP Workshop on on Differentiable and Probabilistic Programming
 
 .kol-2-3[
 .large[
-* RECAST is designed to work with the CERN [REANA](https://reana.io/) open source reproducible research data analysis platform to .bold[perform analysis at scale]
+* RECAST is designed to work with the CERN <a href="https://reana.io/"><img src="figures/logo-reana.svg"; width=12%></a> open source reproducible research data analysis platform to .bold[perform analysis at scale]
 * RECAST + REANA enabled the recent (2024) ATLAS LHC Run-2 Phenomenological Minimal Supersymmetric Standard Model (pMSSM) scan [analysis](https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/SUSY-2020-15/)
    - Theory model .bold[reduced] down to 19-dimensional parameter space
    - Analysis of combination of published ATLAS LHC Run-2 analyses uses .bold[tens of thousands] of parameter space models (each a full analysis evaluation)
@@ -1086,37 +1086,36 @@ From the 2023 MIAPbP Workshop on on Differentiable and Probabilistic Programming
 ]
 ]
 .kol-1-3[
-<br>
 <p style="text-align:center;">
-   <a href="https://reana.io/">
-      <img src="figures/logo-reana.svg"; width=70%>
+   <a href="https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/SUSY-2020-15/">
+      <img src="figures/pmssm-exclusion-plots.png"; width=100%>
    </a>
 </p>
 <p style="text-align:center;">
    <a href="https://ep-news.web.cern.ch/content/extending-atlas-physics-reach-analysis-reuse-technology">
       <img src="figures/CERN_EP_newsletter_pMSSM.png"; width=100%>
    </a>
+.caption[CERN Experimental Physics Department newsletter March 2024]
 </p>
 ]
 
 ---
 # Analysis Reuse leverging global resoruces
 
-.kol-2-3.large[
+.kol-1-2[
 * Use of CERN REANA instance has been a success for ATLAS physics anlayses and starting to see an uptick in use by CMS
 * Realistically, CERN is the only current viable deployment of REANA &mdash; huge limitation in use!
    - Have been consulting with Eric Lancon on ways to improve the BNL deployment
 * Exploring with my UW-Madison CHTC/IRIS-HEP/OSG colleague [.bold[Brian Lin]](https://chtc.cs.wisc.edu/people.html) on exploring REANA at CHTC
-   - REANA is "just" a Kubernetes deployment, and CHTC has world experts in technologies for REANA
+   - CHTC has world experts in technologies used for REANA
    - Enable more kinda of physics anlaysis at scale, and CHTC would be perfect point for .bold[active learning] workflows
 ]
-.kol-1-3[
+.kol-1-2[
 <!-- <p style="text-align:center;">
    <a href="https://chtc.cs.wisc.edu/people.html">
       <img src="figures/brian_lin.jpg"; width=40%>
    </a>
 </p> -->
-<br><br>
 <p style="text-align:center;">
    <a href="https://conference.ippp.dur.ac.uk/event/1178/contributions/6449/">
       <img src="figures/active-learning-workflow.png"; width=100%>
