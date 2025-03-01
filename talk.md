@@ -269,6 +269,16 @@ This position is part of the Wisconsin Research, Innovation and Scholarly Excell
 </p>
 
 ---
+# IRIS-HEP (UW-Madison)
+
+<p style="text-align:center;">
+   <a href="https://iris-hep.org/about/team">
+      <img src="figures/iris-hep_uw-madison.png"; width=65%>
+   </a>
+.center.large[Proud UW-Madison + Morgridge have large leadership roles and impact in IRIS-HEP]
+</p>
+
+---
 # IRIS-HEP
 
 .kol-1-1[
@@ -348,7 +358,7 @@ community engagement with .bold[training, education, and outreach] and .bold[ins
    </a>
 </p>
 
-.center.huge[Training programs personally very relevant, as they .bold[changed my career]<br>
+.center.huge[Training programs personally relevant, as they .bold[heavily impacted my career]<br>
 2017 DIANA/HEP Fellow mentored by Kyle Cranmer
 ]
 
