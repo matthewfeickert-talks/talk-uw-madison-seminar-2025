@@ -306,19 +306,18 @@ community engagement with .bold[training, education, and outreach] and .bold[ins
 <!-- * Emphasize Fellows, trainings, TAC-HEP, URSSI Fellowship teaching, that the P5 has an explicit section on training and work force development
 * Big part -->
 
-.kol-1-1[
 .kol-1-2[
 <p style="text-align:center;">
-   <a href="https://iris-hep.org/">
-      <img src="figures/IRIS-HEP-executive-board.png"; width=60%>
+   <a href="https://iris-hep.org/fellows.html">
+      <img src="figures/iris-hep_fellows_cohort.png"; width=85%>
    </a>
 </p>
-.caption[IRIS-HEP Fellows Program]
+.caption[IRIS-HEP [Fellows Program](https://iris-hep.org/fellows.html)]
 ]
 .kol-1-2[
 <p style="text-align:center;">
    <a href="https://indico.cern.ch/event/1376945/">
-      <img src="figures/us-atlas-iris-hep-group-photo.jpg"; width=60%>
+      <img src="figures/us-atlas-iris-hep-group-photo.jpg"; width=70%>
    </a>
 </p>
 .caption[[US ATLAS](https://indico.cern.ch/event/1376945/) and [US CMS](https://indico.cern.ch/event/1383972/) / IRIS-HEP Analysis Software Training Events]
@@ -329,7 +328,7 @@ community engagement with .bold[training, education, and outreach] and .bold[ins
       <img src="figures/CompHEP-Traineeship-2023-group-photo.jpg"; width=70%>
    </a>
 </p>
-.caption[Training to Advance Computational High Energy Physics in the Exascale Era (TAC-HEP) [Lectures](https://indico.cern.ch/event/1293313/)]
+.caption[Training to Advance Computational High Energy Physics in the Exascale Era ([TAC-HEP](https://tac-hep.org/)) [Lectures](https://indico.cern.ch/event/1293313/)]
 ]
 .kol-1-2[
 <p style="text-align:center;">
@@ -339,7 +338,11 @@ community engagement with .bold[training, education, and outreach] and .bold[ins
 </p>
 .caption[US Research Software Sustainability Institute (URSSI) Early-Career Fellowship: [Reproducible Machine Learning Workflows for Scientists](https://urssi.us/blog/)]
 ]
-]
+
+---
+# Training personally relevant to me
+
+* Was DIANA/HEP FEllow
 
 <!-- https://github.com/iris-hep/analysis-grand-challenge/blob/382e512d39e9b62fc4d9da2c69e454dfc718c5f6/docs/index.rst#more-details-what-is-being-investigated-in-the-agc-context -->
 ---
