@@ -668,7 +668,7 @@ Multiuser runs of the AGC show we can still .bold[reach 200 Gbps in aggregate]
 # Automatic Differentiation
 
 .kol-3-5[
-- Automatic differentiation provides gradients of numerical functions to machine precision
+- Automatic differentiation provides .bold[gradients] of numerical functions for .bold[arbitrary code to machine precision]
 - Build computational graph of the calculation
 - Nodes represent operations, edges represent flow of gradients
 - Apply the chain rule to operations
