@@ -419,18 +419,6 @@ In [2022](https://indico.cern.ch/event/1140031/) created a view for the PyHEP ec
 ]
 
 ---
-# Community adoption ...
-
-<p style="text-align:center;">
-   <a href="https://github.com/matthewfeickert/talk-analysis-ecosystems-workshop-2022/issues/1">
-      <img src="figures/pip-installs-summary.svg"; width=85%>
-   </a>
-</p>
-.center.large["pip install XYZ" download rate for MacOS/Windows (no batch jobs) in aggregate]
-
-.footnote[[Modern Python analysis ecosystem for High Energy Physics](https://matthewfeickert.github.io/talk-doepy-python-exchange-2022/2022-06-29.pdf), Jim Pivarski, Matthew Feickert, Gordon Watts]
-
----
 # Community adoption with ecosystem growth
 
 <p style="text-align:center;">
@@ -438,8 +426,7 @@ In [2022](https://indico.cern.ch/event/1140031/) created a view for the PyHEP ec
       <img src="figures/pip-installs-by-package.svg"; width=85%>
    </a>
 </p>
-.center.large["pip install XYZ" download rate for MacOS/Windows (no batch jobs) by package]
-.caption[Aided by interoperable design]
+.center.large[Community voted with its "feet" (installs) that IRIS-HEP ecosystem is important]
 
 .footnote[[Modern Python analysis ecosystem for High Energy Physics](https://matthewfeickert.github.io/talk-doepy-python-exchange-2022/2022-06-29.pdf), Jim Pivarski, Matthew Feickert, Gordon Watts]
 
@@ -1789,6 +1776,31 @@ Leveraging [REANA](https://www.reana.io/) reproducible research data analysis pl
 
 .center.larger[Organizing and supporting scientific open source]
 ]
+
+---
+# Community adoption ...
+
+<p style="text-align:center;">
+   <a href="https://github.com/matthewfeickert/talk-analysis-ecosystems-workshop-2022/issues/1">
+      <img src="figures/pip-installs-summary.svg"; width=85%>
+   </a>
+</p>
+.center.large["pip install XYZ" download rate for MacOS/Windows (no batch jobs) in aggregate]
+
+.footnote[[Modern Python analysis ecosystem for High Energy Physics](https://matthewfeickert.github.io/talk-doepy-python-exchange-2022/2022-06-29.pdf), Jim Pivarski, Matthew Feickert, Gordon Watts]
+
+---
+# Community adoption with ecosystem growth
+
+<p style="text-align:center;">
+   <a href="https://github.com/matthewfeickert/talk-analysis-ecosystems-workshop-2022/issues/1">
+      <img src="figures/pip-installs-by-package.svg"; width=85%>
+   </a>
+</p>
+.center.large["pip install XYZ" download rate for MacOS/Windows (no batch jobs) by package]
+.caption[Aided by interoperable design]
+
+.footnote[[Modern Python analysis ecosystem for High Energy Physics](https://matthewfeickert.github.io/talk-doepy-python-exchange-2022/2022-06-29.pdf), Jim Pivarski, Matthew Feickert, Gordon Watts]
 
 ---
 # References
