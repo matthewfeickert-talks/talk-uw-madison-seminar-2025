@@ -8,7 +8,14 @@ citations = [1, 15, 38, 50, 51, 6]
 fig, ax = plt.subplots()
 
 ax.plot(dates[:-1], citations[:-1], marker="o", color="blue")
-ax.plot(dates[-2:], citations[-2:], linestyle="dashed", marker="o", color="blue")
+ax.plot(
+    dates[-2:],
+    citations[-2:],
+    dashes=[6, 8],
+    linestyle="dashed",
+    marker="o",
+    color="blue",
+)
 
 ax.text(
     2020.25,
