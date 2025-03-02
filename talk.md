@@ -711,6 +711,22 @@ $$
 ]
 ]
 
+---
+# Differentiable Programming as AI/ML Tool
+
+<!-- a new kind of software by assembling networks of parameterized functional blocks and by training them from examples using some form of gradient-based optimization -->
+
+.kol-1-2[
+<p style="text-align:center;">
+   <a href="https://www.facebook.com/yann.lecun/posts/10155003011462143">
+      <img src="figures/yan-lecun.jpg"; width=90%>
+   </a>
+</p>
+]
+.kol-1-2.huge[
+<br><br><br>
+.bold[Deep Learning est mort.<br>Vive Differentiable Programming!]<br>&mdash; Yann LeCun, 2018
+]
 
 ---
 class: focus-slide, center
