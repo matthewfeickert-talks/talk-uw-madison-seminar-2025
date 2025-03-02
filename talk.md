@@ -1076,24 +1076,34 @@ From the 2023 MIAPbP Workshop on on Differentiable and Probabilistic Programming
 ---
 # Analysis Reuse enabling new physics analysis
 
-.kol-2-3[
-.large[
-* RECAST is designed to work with the CERN <a href="https://reana.io/"><img src="figures/logo-reana.svg"; width=12%></a> open source reproducible research data analysis platform to .bold[perform analysis at scale]
+.kol-1-3[
+* RECAST is designed to work with the CERN <a href="https://reana.io/"><img src="figures/logo-reana.svg"; width=20%></a> open source reproducible research data analysis platform to .bold[perform analysis at scale]
 * RECAST + REANA enabled the recent (2024) ATLAS LHC Run-2 Phenomenological Minimal Supersymmetric Standard Model (pMSSM) scan [analysis](https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/SUSY-2020-15/)
    - Theory model .bold[reduced] down to 19-dimensional parameter space
    - Analysis of combination of published ATLAS LHC Run-2 analyses uses .bold[tens of thousands] of parameter space models (each a full analysis evaluation)
-* Analysis .bold[would be intractable] without existing full analysis preservation from RECAST scaled to thousands of cores with REANA
 ]
-]
-.kol-1-3[
+.kol-2-3[
 <p style="text-align:center;">
    <a href="https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/SUSY-2020-15/">
       <img src="figures/pmssm-exclusion-plots.png"; width=100%>
    </a>
 </p>
+.center.large[Analysis excluded nearly all models in "funnel region"]
+]
+
+---
+# Analysis Reuse enabling new physics analysis
+
+.kol-1-2[
+.larger[
+* RECAST is designed to work with the CERN <a href="https://reana.io/"><img src="figures/logo-reana.svg"; width=12%></a> open source reproducible research data analysis platform to .bold[perform analysis at scale]
+* Analysis .bold[would be intractable] without existing full analysis preservation from RECAST scaled to thousands of cores with REANA
+]
+]
+.kol-1-2[
 <p style="text-align:center;">
    <a href="https://ep-news.web.cern.ch/content/extending-atlas-physics-reach-analysis-reuse-technology">
-      <img src="figures/CERN_EP_newsletter_pMSSM.png"; width=100%>
+      <img src="figures/CERN_EP_newsletter_pMSSM.png"; width=95%>
    </a>
 .caption[CERN Experimental Physics Department newsletter March 2024]
 </p>
