@@ -1140,29 +1140,6 @@ From the 2023 MIAPbP Workshop on on Differentiable and Probabilistic Programming
 - Idea: Focus on a single more tractable binned model first
 
 ---
-# JSON spec fully describes the HistFactory model
-
-.kol-1-4.width-100[
-- Human & machine readable .bold[declarative] statistical models
-- Industry standard
-   - Will be with us forever
-- Parsable by every language
-   - Highly portable
-   - Bidirectional translation <br>with `C++` ROOT
-- Versionable and easily preserved
-   - JSON Schema [describing<br> HistFactory specification](https://scikit-hep.org/pyhf/likelihood.html#bibliography)
-   - Attractive for analysis preservation
-   - Highly compressible
-]
-.kol-3-4[
-<p style="text-align:center;">
-   <img src="figures/carbon_JSON_spec_annotated.png"; width=98%>
-</p>
-
-.center[[`JSON` defining a single channel, two bin counting experiment with systematics](https://scikit-hep.org/pyhf/likelihood.html#toy-example)]
-]
-
----
 # ATLAS validation and publication of full models
 
 .kol-1-2[
@@ -1801,6 +1778,29 @@ Leveraging [REANA](https://www.reana.io/) reproducible research data analysis pl
 .caption[Aided by interoperable design]
 
 .footnote[[Modern Python analysis ecosystem for High Energy Physics](https://matthewfeickert.github.io/talk-doepy-python-exchange-2022/2022-06-29.pdf), Jim Pivarski, Matthew Feickert, Gordon Watts]
+
+---
+# JSON spec fully describes the HistFactory model
+
+.kol-1-4.width-100[
+- Human & machine readable .bold[declarative] statistical models
+- Industry standard
+   - Will be with us forever
+- Parsable by every language
+   - Highly portable
+   - Bidirectional translation <br>with `C++` ROOT
+- Versionable and easily preserved
+   - JSON Schema [describing<br> HistFactory specification](https://scikit-hep.org/pyhf/likelihood.html#bibliography)
+   - Attractive for analysis preservation
+   - Highly compressible
+]
+.kol-3-4[
+<p style="text-align:center;">
+   <img src="figures/carbon_JSON_spec_annotated.png"; width=98%>
+</p>
+
+.center[[`JSON` defining a single channel, two bin counting experiment with systematics](https://scikit-hep.org/pyhf/likelihood.html#toy-example)]
+]
 
 ---
 # References
