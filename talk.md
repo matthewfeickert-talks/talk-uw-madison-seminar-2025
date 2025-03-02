@@ -729,6 +729,18 @@ $$
 ]
 
 ---
+# Differentiable Programming as AI/ML Tool
+
+<br>
+<p style="text-align:center;">
+   <a href="https://www.facebook.com/yann.lecun/posts/10155003011462143">
+      <img src="figures/diff-ml-spectrum.png"; width=100%>
+   </a>
+</p>
+
+.center.huge[Converge on the representations that best address problems]
+
+---
 class: focus-slide, center
 # Case study:<br> Automatic differentiation improving analyses
 
