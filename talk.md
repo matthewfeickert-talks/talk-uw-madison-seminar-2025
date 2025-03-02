@@ -692,26 +692,6 @@ $$
 ]
 
 ---
-# Differentiable Programming
-
-.grid[
-.kol-1-2.large[
-- Allows writing fully differentiable programs that are .bold[efficient and accurate]
-- Resulting system can be optimized end-to-end using efficient gradient-based optimization algorithms
-   - Exploit advances in deep learning
-- Enables .italic[efficient] computation of gradients and Jacobians
-   - Large benefit to statistical inference
-- Replace non-differentiable operations with differentiable analogues
-   - Binning, sorting, cuts
-]
-.kol-1-2[
-<br><br>
-.center.width-100[[![Snowmass_LOI](figures/Snowmass_LOI.png)](https://www.snowmass21.org/docs/files/summaries/CompF/SNOWMASS21-CompF5_CompF3_Gordon_Watts-046.pdf)]
-.center.large[[Snowmass Community Planning Process <br>2021 Letter of Interest](https://www.snowmass21.org/docs/files/summaries/CompF/SNOWMASS21-CompF5_CompF3_Gordon_Watts-046.pdf)]
-]
-]
-
----
 # Differentiable Programming as AI/ML Tool
 
 <!-- a new kind of software by assembling networks of parameterized functional blocks and by training them from examples using some form of gradient-based optimization -->
@@ -731,6 +711,29 @@ $$
 ---
 # Differentiable Programming as AI/ML Tool
 
+.grid[
+.kol-1-2.large[
+- Allows writing .bold[fully differentiable programs]
+- Resulting system can be .bold[optimized] end-to-end using .bold[efficient gradient-based optimization algorithms]
+   - Optimization? That's .bold[ML]!
+   - .bold[Deep learning] is searching for optimal algorithm via gradient descent. Bring .bold[to our tools]!
+- Enables computation of full gradients and Jacobians
+   - Large benefit to statistical inference
+- Replace non-differentiable operations with differentiable analogues
+   - Binning, sorting, cuts
+]
+.kol-1-2[
+<br><br>
+.center.width-100[[![Snowmass_LOI](figures/Snowmass_LOI.png)](https://www.snowmass21.org/docs/files/summaries/CompF/SNOWMASS21-CompF5_CompF3_Gordon_Watts-046.pdf)]
+.center.large[[Snowmass Community Planning Process <br>2021 Letter of Interest](https://www.snowmass21.org/docs/files/summaries/CompF/SNOWMASS21-CompF5_CompF3_Gordon_Watts-046.pdf)]
+]
+]
+
+---
+# Differentiable Programming as AI/ML Tool
+
+<!-- PINN from https://arxiv.org/abs/2410.14760 -->
+
 <br>
 <p style="text-align:center;">
    <a href="https://www.facebook.com/yann.lecun/posts/10155003011462143">
@@ -738,7 +741,9 @@ $$
    </a>
 </p>
 
-.center.huge[Converge on the representations that best address problems]
+<!-- .center.huge[Converge on the representations that best address problems] -->
+<!-- .center.huge[Different representations can address different problems.] -->
+.center.huge[Automatic differentiation and differentiable programming fundamentally drive all the ML at scale.<br>Time do to this at the scale of physics.]
 
 ---
 class: focus-slide, center
@@ -1016,7 +1021,7 @@ $$
 
 <!-- $\mathrm{CL_s} = f(\mathcal{D},\varphi) = (f_{\mathrm{sensitivity}} \circ f_{\mathrm{test\,stat}} \circ f_{\mathrm{likelihood}}  \circ f_{\mathrm{histogram}}  \circ f_{\mathrm{observable}})(\mathcal{D},\varphi)$ -->
 
-.large.bold[
+.large.bold.center[
 Requires all operations to be differentiable
 ]
 
@@ -1146,6 +1151,46 @@ From the 2023 MIAPbP Workshop on on Differentiable and Probabilistic Programming
 ]
 
 ---
+# Full statistical model publication...
+
+.center[...making good on [19 year old agreement to publish likelihoods](https://indico.cern.ch/event/746178/contributions/3396797/)]
+
+<p style="text-align:center;">
+   <a href="https://cds.cern.ch/record/411537">
+      <img src="figures/likelihood_publishing_agreement.png"; width=90%>
+   </a>
+.center[([1st Workshop on Confidence Limits, CERN, 2000](http://inspirehep.net/record/534129))]
+</p>
+
+.bold[This hadn't been done in HEP until `pyhf` in 2019]
+- A "open world" of statistical models gives a difficult domain problem to solve
+- What to preserve and how? All of the ROOT `C++` framework and binary model files?
+- Idea: Focus on a single more tractable binned model first
+
+---
+# ATLAS validation and publication of full models
+
+.kol-1-2[
+.center.width-100[[![ATLAS_PUB_Note_title](figures/ATLAS_PUB_Note_title.png)](https://cds.cern.ch/record/2684863)]
+
+.center.width-90[[![overlay_multiplex_contour](figures/overlay_multiplex_contour.png)](https://cds.cern.ch/record/2684863)]
+
+<br>
+.center[(ATLAS, 2019)]
+]
+.kol-1-2[
+.center.width-100[[![CERN_news_story](figures/CERN_news_story.png)](https://home.cern/news/news/knowledge-sharing/new-open-release-allows-theorists-explore-lhc-data-new-way)]
+.center[(CERN News and Homepage, 2020)]
+]
+
+---
+# Large community adoption followed
+<!-- .center.large.bold[Placeholder slide] -->
+.center[
+.width-95[[![community-adoption](figures/community-adoption.svg)](https://scikit-hep.org/pyhf/citations.html)]
+]
+
+---
 # Analysis Reuse enabling new physics analysis
 
 .kol-1-3[
@@ -1206,45 +1251,6 @@ From the 2023 MIAPbP Workshop on on Differentiable and Probabilistic Programming
 .caption[[ATL-PHYS-PUB-2023-010](https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PUBNOTES/ATL-PHYS-PUB-2023-010/)]
 
 .center[Iterative procedure to actively collect new labelled data for an optimisation task]
-]
-
----
-# Full statistical model publication...
-
-.center[...making good on [19 year old agreement to publish likelihoods](https://indico.cern.ch/event/746178/contributions/3396797/)]
-
-.center.width-90[
-[![likelihood_publishing_agreement](figures/likelihood_publishing_agreement.png)](https://cds.cern.ch/record/411537)
-]
-
-.center[([1st Workshop on Confidence Limits, CERN, 2000](http://inspirehep.net/record/534129))]
-
-.bold[This hadn't been done in HEP until `pyhf` in 2019]
-- A "open world" of statistical models gives a difficult domain problem to solve
-- What to preserve and how? All of the ROOT `C++` framework and binary model files?
-- Idea: Focus on a single more tractable binned model first
-
----
-# ATLAS validation and publication of full models
-
-.kol-1-2[
-.center.width-100[[![ATLAS_PUB_Note_title](figures/ATLAS_PUB_Note_title.png)](https://cds.cern.ch/record/2684863)]
-
-.center.width-90[[![overlay_multiplex_contour](figures/overlay_multiplex_contour.png)](https://cds.cern.ch/record/2684863)]
-
-<br>
-.center[(ATLAS, 2019)]
-]
-.kol-1-2[
-.center.width-100[[![CERN_news_story](figures/CERN_news_story.png)](https://home.cern/news/news/knowledge-sharing/new-open-release-allows-theorists-explore-lhc-data-new-way)]
-.center[(CERN, 2020)]
-]
-
----
-# Large community adoption followed
-<!-- .center.large.bold[Placeholder slide] -->
-.center[
-.width-95[[![community-adoption](figures/community-adoption.svg)](https://scikit-hep.org/pyhf/citations.html)]
 ]
 
 ---
