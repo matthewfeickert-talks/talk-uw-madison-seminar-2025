@@ -230,6 +230,42 @@ This position is part of the Wisconsin Research, Innovation and Scholarly Excell
 .center.large[Projected .bold[required compute usage] for HL-LHC (want .blue[R]&.red[D] below .black[budget] line)]
 
 ---
+# Commitment to investment for the next decades
+<!--
+.bold.center.large[Exciting future for all these areas in particle physics with large scale investment!] -->
+
+.kol-1-3[
+<p style="text-align:center;">
+   <a href="https://www.usparticlephysics.org/2023-p5-report/">
+      <img src="figures/p5-theme.jpg"; width=100%>
+   </a>
+</p>
+
+.center[[Report of the 2023 Particle Physics Project Prioritization Panel](https://www.usparticlephysics.org/2023-p5-report/)]
+
+Once a decade formal recommendations from US particle physics community to .bold[US Congress and funding agencies]
+
+I served on the Formation Task Force for the Coordinating Panel for Software and Computing
+]
+.kol-2-3[
+<p style="text-align:center;">
+   <a href="https://www.usparticlephysics.org/2023-p5-report/">
+      <img src="figures/p5-charge.png"; width=90%>
+   </a>
+</p>
+<p style="text-align:center;">
+   <a href="https://www.usparticlephysics.org/2023-p5-report/">
+      <img src="figures/p5-software-computing-chapter.png"; width=90%>
+   </a>
+</p>
+<p style="text-align:center;">
+   <a href="https://www.usparticlephysics.org/2023-p5-report/">
+      <img src="figures/p5-area-recommendation-18.png"; width=90%>
+   </a>
+</p>
+]
+
+---
 # IRIS-HEP
 
 .large[.bold[Execute R&D activities] required to close the HL-LHC software and computing gaps and serve as .bold[intellectual hub for larger community]]
@@ -1163,65 +1199,6 @@ From the 2023 MIAPbP Workshop on on Differentiable and Probabilistic Programming
 ]
 
 ---
-# Extending model portability with HS3
-
-.kol-3-5.large[
-* [High Energy Physics Statistics Serialization Standard](https://github.com/hep-statistics-serialization-standard/hep-fit-serialization) (HS3)
-   - Make statistical models: persistent, interchangeable, modifiable, readable
-* Goal: Generalize the pyhf JSON model spec to a feature complete specification for particle physics
-   - Ongoing work across the HS3 team and adopting tool teams
-   - Tackle supporting more of the "open world" of statistical modeling
-* HS3 spec will support statistical libraries RooFit (`C++`/`ROOT`), pyhf (Python), BAT (Julia), and others
-   - Write once, run anywhere
-   - Draft v0.2 currently in alpha (first deployment in `ROOTFit`)
-]
-.kol-2-5[
-<br>
-<br>
-<p style="text-align:center;">
-   <a href="https://github.com/hep-statistics-serialization-standard/hep-fit-serialization">
-      <img src="figures/HS3-paper-title-page.png"; width=110%>
-   </a>
-</p>
-]
-
----
-# Dedicated investment for the next decades
-
-.bold.center.large[Exciting future for all these areas in particle physics with large scale investment!]
-
-.kol-1-3[
-<p style="text-align:center;">
-   <a href="https://www.usparticlephysics.org/2023-p5-report/">
-      <img src="figures/p5-theme.jpg"; width=100%>
-   </a>
-</p>
-
-.center[[Report of the 2023 Particle Physics Project Prioritization Panel](https://www.usparticlephysics.org/2023-p5-report/)]
-
-Once a decade formal recommendations from US particle physics community to .bold[US Congress and funding agencies]
-
-Serve on Formation Task Force for the Coordinating Panel for Software and Computing
-]
-.kol-2-3[
-<p style="text-align:center;">
-   <a href="https://www.usparticlephysics.org/2023-p5-report/">
-      <img src="figures/p5-charge.png"; width=90%>
-   </a>
-</p>
-<p style="text-align:center;">
-   <a href="https://www.usparticlephysics.org/2023-p5-report/">
-      <img src="figures/p5-software-computing-chapter.png"; width=90%>
-   </a>
-</p>
-<p style="text-align:center;">
-   <a href="https://www.usparticlephysics.org/2023-p5-report/">
-      <img src="figures/p5-area-recommendation-18.png"; width=90%>
-   </a>
-</p>
-]
-
----
 # Applications beyond HEP
 
 .huge[Today we've discussed .bold[general techniques and technologies] applied to HEP problems, but not constrained to them]
@@ -1800,6 +1777,29 @@ Leveraging [REANA](https://www.reana.io/) reproducible research data analysis pl
 </p>
 
 .center[[`JSON` defining a single channel, two bin counting experiment with systematics](https://scikit-hep.org/pyhf/likelihood.html#toy-example)]
+]
+
+---
+# Extending model portability with HS3
+
+.kol-3-5.large[
+* [High Energy Physics Statistics Serialization Standard](https://github.com/hep-statistics-serialization-standard/hep-fit-serialization) (HS3)
+   - Make statistical models: persistent, interchangeable, modifiable, readable
+* Goal: Generalize the pyhf JSON model spec to a feature complete specification for particle physics
+   - Ongoing work across the HS3 team and adopting tool teams
+   - Tackle supporting more of the "open world" of statistical modeling
+* HS3 spec will support statistical libraries RooFit (`C++`/`ROOT`), pyhf (Python), BAT (Julia), and others
+   - Write once, run anywhere
+   - Draft v0.2 currently in alpha (first deployment in `ROOTFit`)
+]
+.kol-2-5[
+<br>
+<br>
+<p style="text-align:center;">
+   <a href="https://github.com/hep-statistics-serialization-standard/hep-fit-serialization">
+      <img src="figures/HS3-paper-title-page.png"; width=110%>
+   </a>
+</p>
 ]
 
 ---
