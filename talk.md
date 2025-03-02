@@ -971,19 +971,7 @@ $$
 </p>
 ]
 
-.bold.center[Having access to the gradients can make the fit orders of magnitude faster than finite difference]
-
----
-# Bringing gradients further into statistical treatments of systematics
-
-* Applying gradients to systematic calculations
-* In particle physics analysis common to have finned statistical models
-* Current underlying statistical models (HistFactory and Combine) assume that effects of systematic uncertainties factorizes
-* Systematics probed one at a time, doesn't capture effects that have interactions (don't factorize)
-* New statistical model specifications could support off-axis systematic variations for improved modelling
-* Previous attempts to do this with `pyhf` involved using Gaussian Processes
-* Fitting the rate(nuisance parameter) function requires evaluating lots of systematic variations
-* Fitting the response can be made much more efficient if we have access to derivative information (e.g. dRate / dNuisance Parameter)
+.bold.center.large[Having access to the gradients can make the<br>fit orders of magnitude faster than finite difference]
 
 ---
 # New Art: Analysis as a Differentiable Program
@@ -1025,7 +1013,6 @@ $$
 Requires all operations to be differentiable
 ]
 
-
 ---
 # New Art: Analysis as a Differentiable Program
 
@@ -1045,7 +1032,7 @@ Requires all operations to be differentiable
 .kol-2-5[
 <p style="text-align:center;">
    <a href="https://indico.cern.ch/event/882824/timetable/#46-neos-physics-analysis-as-a">
-      <img src="figures/kde_bins.gif"; width=70%>
+      <img src="figures/kde_bins.gif"; width=80%>
    </a>
 </p>
 ]
@@ -1090,8 +1077,20 @@ Requires all operations to be differentiable
 ]
 .kol-1-3[
 - $\mathrm{CL}_{s}$ value minimized with loss of NN
-- Analysis end-to-end optimized directly on physics sensitivity
+- Analysis end-to-end .bold[optimized directly on physics sensitivity]
 ]
+
+---
+# Bringing gradients further into statistical treatments of systematics
+
+* Applying gradients to systematic calculations
+* In particle physics analysis common to have finned statistical models
+* Current underlying statistical models (HistFactory and Combine) assume that effects of systematic uncertainties factorizes
+* Systematics probed one at a time, doesn't capture effects that have interactions (don't factorize)
+* New statistical model specifications could support off-axis systematic variations for improved modelling
+* Previous attempts to do this with `pyhf` involved using Gaussian Processes
+* Fitting the rate(nuisance parameter) function requires evaluating lots of systematic variations
+* Fitting the response can be made much more efficient if we have access to derivative information (e.g. dRate / dNuisance Parameter)
 
 ---
 # Scaling and Analysis Reuse
