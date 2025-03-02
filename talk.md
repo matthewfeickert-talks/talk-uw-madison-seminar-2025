@@ -328,7 +328,7 @@ I served on the Formation Task Force for the Coordinating Panel for Software and
 ]
 
 ---
-# IRIS-HEP (UPDATE TEAM)
+# IRIS-HEP
 
 <p style="text-align:center;">
    <a href="https://iris-hep.org/about/team">
@@ -594,7 +594,7 @@ Multiuser runs of the AGC show we can still .bold[reach 200 Gbps in aggregate]
       <img src="figures/CHEP_2024_keynote.jpg"; width=52%>
    </a>
 </p>
-.bold.center[200 Gbps keynote at CHEP 2024]
+.bold.center[200 Gbps keynote at CHEP 2024 by Alexander Held]
 ]
 
 ---
