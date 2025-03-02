@@ -1085,10 +1085,10 @@ From the 2023 MIAPbP Workshop on on Differentiable and Probabilistic Programming
 .kol-2-3[
 <p style="text-align:center;">
    <a href="https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/SUSY-2020-15/">
-      <img src="figures/pmssm-exclusion-plots.png"; width=100%>
+      <img src="figures/pmssm-exclusion-plots_annotated.png"; width=100%>
    </a>
 </p>
-.center.large[Analysis excluded nearly all models in "funnel region"]
+.center.large[Analysis excluded nearly all models in $Z/h$ "funnel region"]
 ]
 
 ---
