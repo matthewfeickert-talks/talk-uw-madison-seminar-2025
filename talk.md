@@ -265,6 +265,8 @@ I served on the Formation Task Force for the Coordinating Panel for Software and
 </p>
 ]
 
+<!-- .center.huge[Recommendations for AI/ML] -->
+
 ---
 # Planned investment for the next decades
 
