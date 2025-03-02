@@ -230,7 +230,7 @@ This position is part of the Wisconsin Research, Innovation and Scholarly Excell
 .center.large[Projected .bold[required compute usage] for HL-LHC (want .blue[R]&.red[D] below .black[budget] line)]
 
 ---
-# Commitment to investment for the next decades
+# Planned investment for the next decades
 <!--
 .bold.center.large[Exciting future for all these areas in particle physics with large scale investment!] -->
 
@@ -264,6 +264,37 @@ I served on the Formation Task Force for the Coordinating Panel for Software and
    </a>
 </p>
 ]
+
+---
+# Planned investment for the next decades
+
+.kol-1-3[
+<p style="text-align:center;">
+   <a href="https://www.usparticlephysics.org/2023-p5-report/">
+      <img src="figures/p5-theme.jpg"; width=100%>
+   </a>
+</p>
+
+.center[[Report of the 2023 Particle Physics Project Prioritization Panel](https://www.usparticlephysics.org/2023-p5-report/)]
+
+Once a decade formal recommendations from US particle physics community to .bold[US Congress and funding agencies]
+
+I served on the Formation Task Force for the Coordinating Panel for Software and Computing
+]
+.kol-2-3[
+<p style="text-align:center;">
+   <a href="https://www.usparticlephysics.org/2023-p5-report/">
+      <img src="figures/p5-charge.png"; width=90%>
+   </a>
+</p>
+<p style="text-align:center;">
+   <a href="https://www.usparticlephysics.org/2023-p5-report/">
+      <img src="figures/p5-training-workforce-highlight.png"; width=90%>
+   </a>
+</p>
+]
+
+.center.huge[In both research and people]
 
 ---
 # IRIS-HEP
@@ -453,18 +484,6 @@ In his [PyCon 2017 keynote](https://youtu.be/ZyjCqQEUa8o), Jake VanderPlas gave 
 .center.large[
 In [2022](https://indico.cern.ch/event/1140031/) created a view for the PyHEP ecosystem
 ]
-
----
-# Community adoption with ecosystem growth
-
-<p style="text-align:center;">
-   <a href="https://github.com/matthewfeickert/talk-analysis-ecosystems-workshop-2022/issues/1">
-      <img src="figures/pip-installs-by-package.svg"; width=85%>
-   </a>
-</p>
-.center.large[Community voted with its "feet" (installs) that IRIS-HEP ecosystem is important]
-
-.footnote[[Modern Python analysis ecosystem for High Energy Physics](https://matthewfeickert.github.io/talk-doepy-python-exchange-2022/2022-06-29.pdf), Jim Pivarski, Matthew Feickert, Gordon Watts]
 
 ---
 # Analysis Grand Challenge: 200 Gbps challenge
