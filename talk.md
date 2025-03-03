@@ -1258,7 +1258,7 @@ Analysis .bold[would be intractable] without existing full analysis preservation
    </a>
 </p> -->
 <p style="text-align:center;">
-   <a href="https://conference.ippp.dur.ac.uk/event/1178/contributions/6449/">
+   <a href="https://indico.cern.ch/event/708041/contributions/3269754/">
       <img src="figures/active-learning-contour.png"; width=100%>
    </a>
 </p>
