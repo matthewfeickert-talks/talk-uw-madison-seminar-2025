@@ -1167,7 +1167,7 @@ Requires all operations to be differentiable
       <img src="figures/pmssm-exclusion-plots_annotated.png"; width=100%>
    </a>
 </p>
-.center.large[Analysis .bold[nearly excluded all models] in $Z/h$ "funnel region",<br>where a low-mass neutralino would not oversaturate the dark matter relic abundance]
+.center.large[Analysis .bold[nearly excluded all models] in $Z/h$ "funnel region"<br>(where a low-mass neutralino would not oversaturate the dark matter relic abundance)]
 ]
 
 ---
