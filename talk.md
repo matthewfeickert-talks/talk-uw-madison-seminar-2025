@@ -1081,16 +1081,31 @@ Requires all operations to be differentiable
 ]
 
 ---
-# Bringing gradients further into statistical treatments of systematics
+# Bringing gradients further into statistical tools
 
-* Applying gradients to systematic calculations
-* In particle physics analysis common to have finned statistical models
-* Current underlying statistical models (HistFactory and Combine) assume that effects of systematic uncertainties factorizes
-* Systematics probed one at a time, doesn't capture effects that have interactions (don't factorize)
-* New statistical model specifications could support off-axis systematic variations for improved modelling
-* Previous attempts to do this with `pyhf` involved using Gaussian Processes
-* Fitting the rate(nuisance parameter) function requires evaluating lots of systematic variations
-* Fitting the response can be made much more efficient if we have access to derivative information (e.g. dRate / dNuisance Parameter)
+.kol-1-1[
+* Our (binned) models generally assume effect of systematics factorizes
+   - Don't capture effects that have interactions (don't factorize)
+* .bold[Future statistical model specifications] can support off-axis systematic variations for improved modelling
+* Fitting the rate function $\nu\left(\varphi\right)$ for these models requires many .bold[costly interoplations]!
+* Fitting the response can be made much more efficient with access to gradient $d\nu\left(\varphi\right)/d\varphi$
+]
+.kol-1-1[
+.kol-2-5[
+* [Prior exploratory pyhf work with Gaussian processes](https://github.com/pyhf/pyhf-gpsys) based interpolators
+* New .bold[emerging opportuntiy] in <br>IRIS-HEP Analysis Systems
+* Different than optimizing the analysis
+* Focus is to .bold[make model more correct] and improve the quality of the analysis
+]
+.kol-3-5[
+<p style="text-align:center;">
+   <a href="https://iris-hep.org/as.html">
+      <img src="figures/differentiable_gaussian_processes.png"; width=100%>
+   </a>
+</p>
+.center.bold.huge[Bring AI/ML deep into our analysis tooling]
+]
+]
 
 ---
 # Scaling and Analysis Reuse
@@ -1196,7 +1211,7 @@ From the 2023 MIAPbP Workshop on on Differentiable and Probabilistic Programming
 * RECAST is designed to work with the CERN <a href="https://reana.io/"><img src="figures/logo-reana.svg"; width=20%></a> open source reproducible research data analysis platform to .bold[perform analysis at scale]
 * RECAST + REANA enabled the recent (2024) ATLAS LHC Run-2 Phenomenological Minimal Supersymmetric Standard Model (pMSSM) scan [analysis](https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/SUSY-2020-15/)
    - Addresses a 19-dimensional parameter sub-space of the theory
-   - Analysis of combination of published ATLAS LHC Run-2 analyses uses .bold[tens of thousands] of parameter space models (each a full analysis evaluation)
+   - Analysis of combination of published ATLAS LHC Run-2 analyses uses .bold[tens of thousands] of parameter space models, reulsting in .bold[many hundreds of full analysis evaluations]
 ]
 .kol-2-3[
 <p style="text-align:center;">
@@ -1325,6 +1340,15 @@ class: end-slide, center
 .center.large[Projected .bold[required disk usage] for HL-LHC (want R&D below budget line)]
 
 .center[[ATLAS](https://cds.cern.ch/record/2803119?ln=en) and [CMS](https://cds.cern.ch/record/2815292?ln=en) software and computing reviews]
+
+---
+# Anlaysis Systems Tool Overview
+
+<p style="text-align:center;">
+   <a href="https://iris-hep.org/as.html">
+      <img src="figures/tools-summary.png"; width=100%>
+   </a>
+</p>
 
 ---
 # Rapid rise of Python for analysis in HEP
