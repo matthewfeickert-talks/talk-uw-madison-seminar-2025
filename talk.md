@@ -222,7 +222,7 @@ This position is part of the Wisconsin Research, Innovation and Scholarly Excell
 
 <p style="text-align:center;">
    <a href="https://cds.cern.ch/record/2802918">
-      <img src="figures/HL-LHC-cpu-projections-atlas.png"; width=58%>
+      <img src="figures/HL-LHC-cpu-projections-atlas_annotated.png"; width=58%>
    </a>
 </p>
 <!-- .center[[ATLAS software and computing review](https://cds.cern.ch/record/2802918)] -->
