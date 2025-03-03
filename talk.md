@@ -1236,8 +1236,12 @@ Analysis .bold[would be intractable] without existing full analysis preservation
    - Differentiable programming can attack problems across fields
 * Applications of Neural Simulation Based Inference (NSBI) to analysis at LHC
    - Ongoing work with UW-Madison ATLAS group with .bold[postdoc Jay Sandesara] (lead first ATLAS NSBI analysis)
+   - Devleoping NSBI tooling inside of IRIS-HEP Analysis Systems, building off of UW-Madison team's experience with MadMiner
+   - Applications of NSBI to Standard Model Effective Field Theories in ATLAS for flasgship LHC EFT measurements
 <!-- * Expanding scope of RECAST -->
 * Expanding use of REANA to new physics analyses
+   - Expanding scope of BSM analyses inside of ATLAS
+   - Applications of REANA to physics beyond HEP
 ]
 <!-- <p style="text-align:center;">
    <img src="figures/recast-workflow-goal.png"; width=60%>
