@@ -877,6 +877,13 @@ Mathematical grammar for a simultaneous fit with multiple disjoint _channels_ (o
 ]
 
 ---
+# Large community adoption followed
+<!-- .center.large.bold[Placeholder slide] -->
+.center[
+.width-95[[![community-adoption](figures/community-adoption.svg)](https://scikit-hep.org/pyhf/citations.html)]
+]
+
+---
 # Machine Learning Frameworks for Computation
 
 .grid[
@@ -1065,9 +1072,20 @@ Requires all operations to be differentiable
 ---
 # Analysis Reuse: Maximizing scientific value
 
-.large[
+.kol-1-2[
+.huge[
 * Data and analyses done at the LHC are .bold[scientific opportunities performed under unique experimental conditions]
-* TODO
+* Statistical models uses for experimental physics results are .bold[essential information] for analysis preservation and reuse
+* .bold[Publish them] (on <a href="https://reana.io/"><img src="figures/hepdata-logo.png"; width=25%></a>)!
+]
+]
+.kol-1-2[
+<br><br>
+<p style="text-align:center;">
+   <a href="https://inspirehep.net/literature/1919763">
+      <img src="figures/publishing_stat_models_paper.png"; width=100%>
+   </a>
+</p>
 ]
 
 ---
@@ -1104,13 +1122,6 @@ Requires all operations to be differentiable
 .kol-1-2[
 .center.width-100[[![CERN_news_story](figures/CERN_news_story.png)](https://home.cern/news/news/knowledge-sharing/new-open-release-allows-theorists-explore-lhc-data-new-way)]
 .center[(CERN News and Homepage, 2020)]
-]
-
----
-# Large community adoption followed
-<!-- .center.large.bold[Placeholder slide] -->
-.center[
-.width-95[[![community-adoption](figures/community-adoption.svg)](https://scikit-hep.org/pyhf/citations.html)]
 ]
 
 ---
