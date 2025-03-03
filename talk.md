@@ -1243,16 +1243,16 @@ Analysis .bold[would be intractable] without existing full analysis preservation
 
 .large[
 * Automatic differentiation is a rich field of research unto itself
-   - [Machine-learning Optimized Design of Experiments (MODE) collaboration](https://mode-collaboration.github.io/) working towards detector design optimization using automatic differentiation
-   - Differentiable programming can attack problems across fields
+   - [Machine-learning Optimized Design of Experiments (MODE) collaboration](https://mode-collaboration.github.io/) working towards detector design .bold[optimization using automatic differentiation]
+   - Differentiable programming can .bold[attack problems across fields]
 * Applications of Neural Simulation Based Inference (NSBI) to analysis at LHC
    - Ongoing work with UW-Madison ATLAS group with .bold[postdoc Jay Sandesara] (lead first ATLAS NSBI analysis)
-   - Devleoping NSBI tooling inside of IRIS-HEP Analysis Systems, building off of UW-Madison team's experience with MadMiner
-   - Applications of NSBI to Standard Model Effective Field Theories in ATLAS for flasgship LHC EFT measurements
+   - .bold[Devleoping NSBI tooling] inside of IRIS-HEP Analysis Systems, building off of UW-Madison team's experience with MadMiner
+   - Applications of NSBI to Standard Model Effective Field Theories in ATLAS for .bold[flasgship LHC EFT measurements]
 <!-- * Expanding scope of RECAST -->
 * Expanding use of REANA to new physics analyses
-   - Expanding scope of BSM analyses inside of ATLAS
-   - Applications of REANA to physics beyond HEP
+   - .bold[Expanding applications in BSM analyses] inside of ATLAS
+   - Applications of REANA to .bold[physics beyond HEP]
 ]
 <!-- <p style="text-align:center;">
    <img src="figures/recast-workflow-goal.png"; width=60%>
@@ -1266,7 +1266,7 @@ Analysis .bold[would be intractable] without existing full analysis preservation
 <!-- * Engaging the broader scientific open source community has been a boon for particle physics tooling -->
 * IRIS-HEP building .bold[analysis tools for the HL-LHC] and beyond
 * Automatic differentiation gives .bold[powerful AI/ML tool with differentiable programming]
-* .bold[Scalable and reusable] analysis workflows allow leveraging our tools for new physics
+* .bold[Scalable and reusable analysis workflows] allow leveraging our tools for new physics
 * .bold[Exciting future] with investment in these research areas happening now!
 ]
 
