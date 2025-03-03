@@ -1083,7 +1083,7 @@ Requires all operations to be differentiable
 <br><br>
 <p style="text-align:center;">
    <a href="https://inspirehep.net/literature/1919763">
-      <img src="figures/publishing_stat_models_paper.png"; width=100%>
+      <img src="figures/publishing_stat_models_paper.png"; width=115%>
    </a>
 </p>
 ]
