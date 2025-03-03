@@ -1211,7 +1211,7 @@ From the 2023 MIAPbP Workshop on on Differentiable and Probabilistic Programming
 * RECAST is designed to work with the CERN <a href="https://reana.io/"><img src="figures/logo-reana.svg"; width=20%></a> open source reproducible research data analysis platform to .bold[perform analysis at scale]
 * RECAST + REANA enabled the recent (2024) ATLAS LHC Run-2 Phenomenological Minimal Supersymmetric Standard Model (pMSSM) scan [analysis](https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/SUSY-2020-15/)
    - Addresses a 19-dimensional parameter sub-space of the theory
-   - Analysis of combination of published ATLAS LHC Run-2 analyses uses .bold[tens of thousands] of parameter space models, reulsting in .bold[many hundreds of full analysis evaluations]
+   - Analysis of combination of published ATLAS LHC Run-2 analyses uses .bold[tens of thousands] of parameter space models, resulting in .bold[many hundreds of full analysis evaluations]
 ]
 .kol-2-3[
 <p style="text-align:center;">
