@@ -1226,9 +1226,9 @@ From the 2023 MIAPbP Workshop on on Differentiable and Probabilistic Programming
 # Analysis Reuse enabling new physics analysis
 
 .kol-1-2[
-.larger[
-* RECAST is designed to work with the CERN <a href="https://reana.io/"><img src="figures/logo-reana.svg"; width=12%></a> open source reproducible research data analysis platform to .bold[perform analysis at scale]
-* Analysis .bold[would be intractable] without existing full analysis preservation from RECAST scaled to thousands of cores with REANA
+.huge[
+<br><br><br>
+Analysis .bold[would be intractable] without existing full analysis preservation from RECAST scaled to thousands of cores with REANA
 ]
 ]
 .kol-1-2[
@@ -1246,10 +1246,10 @@ From the 2023 MIAPbP Workshop on on Differentiable and Probabilistic Programming
 .kol-1-2[
 * Use of CERN REANA instance has been a success for ATLAS physics anlayses and starting to see an uptick in use by CMS
 * Realistically, CERN is the only current viable deployment of REANA &mdash; huge limitation in use!
-   - Have been consulting with Eric Lancon on ways to improve the BNL deployment
+   - Have been discussing with Eric Lancon on ways to improve the BNL deployment
 * Exploring REANA at CHTC with advice from<br>UW-Madison CHTC/IRIS-HEP/OSG colleague<br>[.bold[Brian Lin]](https://chtc.cs.wisc.edu/people.html)
 * CHTC has world experts in technologies used for REANA
-* Enable more kinds of physics anlaysis at scale, and CHTC would be perfect point for .bold[active learning] workflows
+* Enable more kinds of physics anlaysis at scale, and leverage CHTC for .bold[active learning] workflows
 ]
 .kol-1-2[
 <!-- <p style="text-align:center;">
@@ -1259,7 +1259,7 @@ From the 2023 MIAPbP Workshop on on Differentiable and Probabilistic Programming
 </p> -->
 <p style="text-align:center;">
    <a href="https://conference.ippp.dur.ac.uk/event/1178/contributions/6449/">
-      <img src="figures/active-learning-workflow.png"; width=100%>
+      <img src="figures/active-learning-contour.png"; width=100%>
    </a>
 </p>
 .caption[[ATL-PHYS-PUB-2023-010](https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PUBNOTES/ATL-PHYS-PUB-2023-010/)]
