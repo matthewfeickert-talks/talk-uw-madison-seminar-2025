@@ -1063,26 +1063,11 @@ Requires all operations to be differentiable
 ]
 
 ---
-# Analysis Reuse
+# Analysis Reuse: Maximizing scientific value
 
 .large[
 * Data and analyses done at the LHC are .bold[scientific opportunities performed under unique experimental conditions]
-* Workflow language based [RECAST](https://github.com/recast-hep/recast-atlas) .bold[reinterpretation and analysis preservation] framework (Cranmer, Heinrich, Feickert) has been implemented in ATLAS as an enabling technology
-* Results leading to ATLAS public notes extending the physics reach of original publications
-]
-
-.kol-1-3[
-<p style="text-align:center;">
-   <a href="https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PUBNOTES/ATL-PHYS-PUB-2020-007/">
-      <!-- <img src="figures/recasted-analysis.png"; width=100%> -->
-      <img src="figures/recasted-analysis-dark-matter-particlezoo.png"; width=100%>
-   </a>
-</p>
-]
-.kol-2-3[
-<p style="text-align:center;">
-   <img src="figures/recast-workflow-goal.png"; width=100%>
-</p>
+* TODO
 ]
 
 ---
@@ -1126,6 +1111,34 @@ Requires all operations to be differentiable
 <!-- .center.large.bold[Placeholder slide] -->
 .center[
 .width-95[[![community-adoption](figures/community-adoption.svg)](https://scikit-hep.org/pyhf/citations.html)]
+]
+
+---
+# Analysis Reuse: Reinterpretation with RECAST
+
+.large[
+* Reinterpret existing experimental result in the context of an alternative physics signal hypothesis
+]
+
+.kol-1-1[
+.kol-1-3[
+<p style="text-align:center;">
+   <a href="https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PUBNOTES/ATL-PHYS-PUB-2020-007/">
+      <!-- <img src="figures/recasted-analysis.png"; width=100%> -->
+      <img src="figures/recasted-analysis-dark-matter-particlezoo.png"; width=100%>
+   </a>
+</p>
+]
+.kol-2-3[
+<p style="text-align:center;">
+   <img src="figures/recast-motivation.png"; width=110%>
+</p>
+]
+]
+
+.large[
+* Workflow language based [RECAST](https://github.com/recast-hep/recast-atlas) .bold[reinterpretation and analysis preservation] framework (Cranmer, Heinrich, Feickert) has been implemented in ATLAS as an enabling technology
+* Results leading to ATLAS public notes extending the physics reach of original publications
 ]
 
 ---
@@ -1215,19 +1228,20 @@ Analysis .bold[would be intractable] without existing full analysis preservation
 ]
 
 ---
-# Applications beyond HEP
-
-.huge[Today we've discussed .bold[general techniques and technologies] applied to HEP problems, but not constrained to them]
+# Ongoing and future work
 
 .large[
 * Automatic differentiation is a rich field of research unto itself
    - [Machine-learning Optimized Design of Experiments (MODE) collaboration](https://mode-collaboration.github.io/) working towards detector design optimization using automatic differentiation
-   - [Fully differentiable branching programs](https://inspirehep.net/literature/2692444) (novel!) can attack problems across fields
-* Engagement with the broader scientific open source community
-   - Scikit-HEP and IRIS-HEP have strong involvement in Scientific Python project, NumFOCUS, and SciPy Conference, JuliaHEP being fostered now
-* Planning for analysis reuse brings flexibility to leverage tooling
-   - Adopting standards and workflows allows for tooling to change with opportunity
+   - Differentiable programming can attack problems across fields
+* Applications of Neural Simulation Based Inference (NSBI) to analysis at LHC
+   - Ongoing work with UW-Madison ATLAS group with .bold[postdoc Jay Sandesara] (lead first ATLAS NSBI analysis)
+<!-- * Expanding scope of RECAST -->
+* Expanding use of REANA to new physics analyses
 ]
+<!-- <p style="text-align:center;">
+   <img src="figures/recast-workflow-goal.png"; width=60%>
+</p> -->
 
 ---
 # Summary
