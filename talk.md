@@ -461,33 +461,6 @@ Integrating [machine learning training and inference](https://indico.jlab.org/ev
 ]
 
 ---
-# Ecosystems
-
-<p style="text-align:center;">
-   <a href="https://coiled.io/blog/pydata-dask/">
-      <img src="figures/pydata-ecosystem-pycon-2017.png"; width=55%>
-   </a>
-</p>
-
-.center.large[
-In his [PyCon 2017 keynote](https://youtu.be/ZyjCqQEUa8o), Jake VanderPlas gave us the iconic "PyData ecosystem" image<br>
-(now known as "Scientific Python")
-]
-
----
-# PyHEP ecosystem
-
-<p style="text-align:center;">
-   <a href="https://indico.cern.ch/event/1140031/">
-      <img src="figures/pyhep-ecosystem.svg"; width=55%>
-   </a>
-</p>
-
-.center.large[
-In [2022](https://indico.cern.ch/event/1140031/) created a view for the PyHEP ecosystem
-]
-
----
 # Analysis Grand Challenge: 200 Gbps challenge
 
 .footnote[[The 200 Gbps Challenge: Imagining HL-LHC analysis facilities](https://indico.cern.ch/event/1338689/contributions/6009824/), A. Held, et al.]
@@ -496,7 +469,7 @@ In [2022](https://indico.cern.ch/event/1140031/) created a view for the PyHEP ec
 
 * Analyze O(1000) TB of data within a few hours
 * .blue[Interactive analysis turnaround: "coffee break" timescale]
-* Fully integrated Analysis Facilities (AFs)
+* Fully integrated Analysis Facilities
 * UX to empower big and small teams
 * Easy access to state-of-the-art ML + techniques
 * Reproducibility, analysis preservation, reuse
@@ -518,7 +491,7 @@ In [2022](https://indico.cern.ch/event/1140031/) created a view for the PyHEP ec
 
 * Analyze O(1000) TB of data within a few hours
 * Interactive analysis turnaround: "coffee break" timescale
-* Fully integrated Analysis Facilities (AFs)
+* Fully integrated Analysis Facilities
 * UX to empower big and small teams
 * .blue[Easy access to state-of-the-art ML + techniques]
 * Reproducibility, analysis preservation, reuse
@@ -615,7 +588,7 @@ Multiuser runs of the AGC show we can still .bold[reach 200 Gbps in aggregate]
 ---
 # Gradients as Computational Tools
 
-- As we'll see later, having access to the gradient while performing minimization is .bold[highly beneficial]!
+- As we'll see later, having access to the .bold[gradient] while performing .bold[minimization] is .bold[highly beneficial]!
 - Can imagine multiple ways of arriving at gradients for computational functions
    <!-- - But want them to be both .bold[exact] and .bold[flexible] -->
 
@@ -633,7 +606,7 @@ Multiuser runs of the AGC show we can still .bold[reach 200 Gbps in aggregate]
 ---
 # Gradients as Computational Tools
 
-- As we'll see later, having access to the gradient while performing minimization is .bold[highly beneficial]!
+- As we'll see later, having access to the .bold[gradient] while performing .bold[minimization] is .bold[highly beneficial]!
 - Can imagine multiple ways of arriving at gradients for computational functions
 
 .center.width-30[![carbon_f_x](figures/carbon_f_x.png)]
@@ -650,7 +623,7 @@ Multiuser runs of the AGC show we can still .bold[reach 200 Gbps in aggregate]
 ---
 # Gradients as Computational Tools
 
-- As we'll see later, having access to the gradient while performing minimization is .bold[highly beneficial]!
+- As we'll see later, having access to the .bold[gradient] while performing .bold[minimization] is .bold[highly beneficial]!
 - Can imagine multiple ways of arriving at gradients for computational functions
 
 .center.width-30[![carbon_f_x](figures/carbon_f_x.png)]
@@ -956,24 +929,6 @@ $$
 ]
 
 ---
-# HEP Example: Likelihood Gradients
-
-.kol-1-2.center[
-<p style="text-align:center;">
-   <a href="https://indico.cern.ch/event/882824/timetable/#45-introduction-to-automatic-d">
-      <img src="figures/carbon_plot_MLE_grads.png"; width=85%>
-   </a>
-</p>
-]
-.kol-1-2.center[
-<p style="text-align:center;">
-   <img src="figures/MLE_grad_map.png"; width=90%>
-</p>
-]
-
-.bold.center.large[Having access to the gradients can make the<br>fit orders of magnitude faster than finite difference]
-
----
 # New Art: Analysis as a Differentiable Program
 
 <p style="text-align:center;">
@@ -1108,40 +1063,6 @@ Requires all operations to be differentiable
 ]
 
 ---
-# Scaling and Analysis Reuse
-
-<p style="text-align:center;">
-   <a href="https://iris-hep.org/as.html">
-      <img src="figures/cabinetry-vertical-slice.png"; width=90%>
-   </a>
-</p>
-
-.center[Revisiting .bold[IRIS-HEP Analysis Systems] in the context of distributed scaling (HL-LHC) and analysis reuse]
-
----
-# Scaling is reasonable
-
-From the 2023 MIAPbP Workshop on on Differentiable and Probabilistic Programming for physics engagement with the broader community showed multiple large scale workflows
-
-.center[.bold[If] things are differentiable, shouldn't be scared of .bold[large-scale codebases and applications]]
-
-.kol-1-2[
-<p style="text-align:center;">
-   <a href="https://www.munich-iapbp.de/probabilistic-programming/">
-      <img src="figures/MIAPbP-workshop-poster.png"; width=90%>
-   </a>
-</p>
-]
-.kol-1-2[
-<p style="text-align:center;">
-   <a href="https://indico.ph.tum.de/event/7314/contributions/7432/">
-      <img src="figures/miapbp-workshop-scaling-ad.png"; width=90%>
-   </a>
-</p>
-.center[[Nicolas Gauger, MIAPbP Workshop 2023](https://indico.ph.tum.de/event/7314/contributions/7432/)]
-]
-
----
 # Analysis Reuse
 
 .large[
@@ -1167,6 +1088,7 @@ From the 2023 MIAPbP Workshop on on Differentiable and Probabilistic Programming
 ---
 # Full statistical model publication...
 
+<br>
 .center[...making good on [19 year old agreement to publish likelihoods](https://indico.cern.ch/event/746178/contributions/3396797/)]
 
 <p style="text-align:center;">
@@ -1176,10 +1098,12 @@ From the 2023 MIAPbP Workshop on on Differentiable and Probabilistic Programming
 .center[([1st Workshop on Confidence Limits, CERN, 2000](http://inspirehep.net/record/534129))]
 </p>
 
-.bold[This hadn't been done in HEP until `pyhf` in 2019]
+.center.huge.bold[This hadn't been done in HEP until `pyhf` in 2019]
+
+<!-- .bold[This hadn't been done in HEP until `pyhf` in 2019]
 - A "open world" of statistical models gives a difficult domain problem to solve
 - What to preserve and how? All of the ROOT `C++` framework and binary model files?
-- Idea: Focus on a single more tractable binned model first
+- Idea: Focus on a single more tractable binned model first -->
 
 ---
 # ATLAS validation and publication of full models
@@ -1219,7 +1143,7 @@ From the 2023 MIAPbP Workshop on on Differentiable and Probabilistic Programming
       <img src="figures/pmssm-exclusion-plots_annotated.png"; width=100%>
    </a>
 </p>
-.center.large[Analysis excluded nearly all models in $Z/h$ "funnel region"]
+.center.large[Analysis .bold[nearly excluded all models] in $Z/h$ "funnel region",<br>where a low-mass neutralino would not oversaturate the dark matter relic abundance]
 ]
 
 ---
@@ -1238,6 +1162,29 @@ Analysis .bold[would be intractable] without existing full analysis preservation
    </a>
 .caption[CERN Experimental Physics Department newsletter March 2024]
 </p>
+]
+
+---
+# Scaling is reasonable
+
+<!-- From the 2023 MIAPbP Workshop on on Differentiable and Probabilistic Programming for physics engagement with the broader community showed multiple large scale workflows -->
+
+.center.huge[.bold[If] things are differentiable,<br>shouldn't be scared of .bold[large-scale codebases and applications]]
+
+.kol-1-2[
+<p style="text-align:center;">
+   <a href="https://www.munich-iapbp.de/probabilistic-programming/">
+      <img src="figures/MIAPbP-workshop-poster.png"; width=90%>
+   </a>
+</p>
+]
+.kol-1-2[
+<p style="text-align:center;">
+   <a href="https://indico.ph.tum.de/event/7314/contributions/7432/">
+      <img src="figures/miapbp-workshop-scaling-ad.png"; width=90%>
+   </a>
+</p>
+.center[[Nicolas Gauger, MIAPbP Workshop 2023](https://indico.ph.tum.de/event/7314/contributions/7432/)]
 ]
 
 ---
@@ -1373,6 +1320,44 @@ class: end-slide, center
 .center.large["import XYZ" matches in GitHub repos for users who fork [CMSSW](https://github.com/cms-sw/cmssw) by library/tool]
 
 .footnote[[Modern Python analysis ecosystem for High Energy Physics](https://matthewfeickert.github.io/talk-doepy-python-exchange-2022/2022-06-29.pdf), Jim Pivarski, Matthew Feickert, Gordon Watts]
+
+---
+# Ecosystems
+
+<p style="text-align:center;">
+   <a href="https://coiled.io/blog/pydata-dask/">
+      <img src="figures/pydata-ecosystem-pycon-2017.png"; width=55%>
+   </a>
+</p>
+
+.center.large[
+In his [PyCon 2017 keynote](https://youtu.be/ZyjCqQEUa8o), Jake VanderPlas gave us the iconic "PyData ecosystem" image<br>
+(now known as "Scientific Python")
+]
+
+---
+# PyHEP ecosystem
+
+<p style="text-align:center;">
+   <a href="https://indico.cern.ch/event/1140031/">
+      <img src="figures/pyhep-ecosystem.svg"; width=55%>
+   </a>
+</p>
+
+.center.large[
+In [2022](https://indico.cern.ch/event/1140031/) created a view for the PyHEP ecosystem
+]
+
+---
+# Scaling and Analysis Reuse
+
+<p style="text-align:center;">
+   <a href="https://iris-hep.org/as.html">
+      <img src="figures/cabinetry-vertical-slice.png"; width=90%>
+   </a>
+</p>
+
+.center[Revisiting .bold[IRIS-HEP Analysis Systems] in the context of distributed scaling (HL-LHC) and analysis reuse]
 
 ---
 # Automatic Differentiation: Forward and Reverse
@@ -1539,6 +1524,24 @@ Mathematical grammar for a simultaneous fit with multiple disjoint _channels_ (o
 * With a simple gradient descent algorithm can easily automate the significance optimization
 * Allows for the "cut" to become a parameter that can be differentiated through for the larger analysis
 ]
+
+---
+# HEP Example: Likelihood Gradients
+
+.kol-1-2.center[
+<p style="text-align:center;">
+   <a href="https://indico.cern.ch/event/882824/timetable/#45-introduction-to-automatic-d">
+      <img src="figures/carbon_plot_MLE_grads.png"; width=85%>
+   </a>
+</p>
+]
+.kol-1-2.center[
+<p style="text-align:center;">
+   <img src="figures/MLE_grad_map.png"; width=90%>
+</p>
+]
+
+.bold.center.large[Having access to the gradients can make the<br>fit orders of magnitude faster than finite difference]
 
 ---
 # Discriminate Signal and Background
