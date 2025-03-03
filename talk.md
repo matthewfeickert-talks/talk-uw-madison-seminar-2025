@@ -1914,6 +1914,17 @@ Leveraging [REANA](https://www.reana.io/) reproducible research data analysis pl
 ]
 
 ---
+# Context for pMSSM Analysis
+
+<p style="text-align:center;">
+   <a href="https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/SUSY-2020-15/">
+      <img src="figures/pmssm-analysis-abstract.png"; width=100%>
+   </a>
+</p>
+
+.center.bold.huge[[JHEP 05 (2024) 106](https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/SUSY-2020-15/)]
+
+---
 # References
 
 1. Lukas Heinrich, .italic[[Distributed Gradients for Differentiable Analysis](https://indico.cern.ch/event/960587/contributions/4070325/)], [Future Analysis Systems and Facilities Workshop](https://indico.cern.ch/event/960587/), 2020.
