@@ -1252,10 +1252,11 @@ Analysis .bold[would be intractable] without existing full analysis preservation
 
 .large[
 * Many challenges and opportunities ahead at the HL-LHC
-* Engaging the broader scientific open source community has been a boon for particle physics tooling
-* Automatic differentiation gives a powerful tool in the form of differentiable programming
-* Scalable and reusable analysis workflows allow leveraging our tools
-* Exciting future with full investment in these research areas is happening now!
+<!-- * Engaging the broader scientific open source community has been a boon for particle physics tooling -->
+* IRIS-HEP building .bold[analysis tools for the HL-LHC] and beyond
+* Automatic differentiation gives .bold[powerful AI/ML tool with differentiable programming]
+* .bold[Scalable and reusable] analysis workflows allow leveraging our tools for new physics
+* .bold[Exciting future] with investment in these research areas happening now!
 ]
 
 .kol-1-3[
